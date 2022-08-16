@@ -1,0 +1,3355 @@
+<?php
+
+use Twig\Environment;
+use Twig\Error\LoaderError;
+use Twig\Error\RuntimeError;
+use Twig\Markup;
+use Twig\Sandbox\SecurityError;
+use Twig\Sandbox\SecurityNotAllowedTagError;
+use Twig\Sandbox\SecurityNotAllowedFilterError;
+use Twig\Sandbox\SecurityNotAllowedFunctionError;
+use Twig\Source;
+use Twig\Template;
+
+/* __string_template__ad87618e6b454c63ce105f296e18d9d0fedb7cfdd73a5311faceecb9eb358e19 */
+class __TwigTemplate_adf76953f1fa9bc7ea6ec5232d2c252803a4eba042af8959590db8536dd94dfa extends \Twig\Template
+{
+    public function __construct(Environment $env)
+    {
+        parent::__construct($env);
+
+        $this->parent = false;
+
+        $this->blocks = [
+            'stylesheets' => [$this, 'block_stylesheets'],
+            'extra_stylesheets' => [$this, 'block_extra_stylesheets'],
+            'content_header' => [$this, 'block_content_header'],
+            'content' => [$this, 'block_content'],
+            'content_footer' => [$this, 'block_content_footer'],
+            'sidebar_right' => [$this, 'block_sidebar_right'],
+            'javascripts' => [$this, 'block_javascripts'],
+            'extra_javascripts' => [$this, 'block_extra_javascripts'],
+            'translate_javascripts' => [$this, 'block_translate_javascripts'],
+        ];
+    }
+
+    protected function doDisplay(array $context, array $blocks = [])
+    {
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->enter($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "template", "__string_template__ad87618e6b454c63ce105f296e18d9d0fedb7cfdd73a5311faceecb9eb358e19"));
+
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "template", "__string_template__ad87618e6b454c63ce105f296e18d9d0fedb7cfdd73a5311faceecb9eb358e19"));
+
+        // line 1
+        echo "<!DOCTYPE html>
+<html lang=\"en\">
+<head>
+  <meta charset=\"utf-8\">
+<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
+<meta name=\"apple-mobile-web-app-capable\" content=\"yes\">
+<meta name=\"robots\" content=\"NOFOLLOW, NOINDEX\">
+
+<link rel=\"icon\" type=\"image/x-icon\" href=\"/img/favicon.ico\" />
+<link rel=\"apple-touch-icon\" href=\"/img/app_icon.png\" />
+
+<title>Modules catalog • SHOP | Hamburg Hurricanes</title>
+
+  <script type=\"text/javascript\">
+    var help_class_name = 'AdminPsMboModule';
+    var iso_user = 'en';
+    var lang_is_rtl = '0';
+    var full_language_code = 'en-us';
+    var full_cldr_language_code = 'en-US';
+    var country_iso_code = 'DE';
+    var _PS_VERSION_ = '1.7.8.6';
+    var roundMode = 2;
+    var youEditFieldFor = '';
+        var new_order_msg = 'A new order has been placed on your shop.';
+    var order_number_msg = 'Order number: ';
+    var total_msg = 'Total: ';
+    var from_msg = 'From: ';
+    var see_order_msg = 'View this order';
+    var new_customer_msg = 'A new customer registered on your shop.';
+    var customer_name_msg = 'Customer name: ';
+    var new_msg = 'A new message was posted on your shop.';
+    var see_msg = 'Read this message';
+    var token = '0fb6c1cc315f9062dfb98e5160450d05';
+    var token_admin_orders = tokenAdminOrders = '4dc045a3223e9fe0b9f4316ac6eb1cd2';
+    var token_admin_customers = 'd4b287986bcd590b3c1287393eb3a57f';
+    var token_admin_customer_threads = tokenAdminCustomerThreads = 'f50ca760cb4b4611889f34769bb0dee2';
+    var currentIndex = 'index.php?controller=AdminPsMboModule';
+    var employee_token = '2e5847662d1443e2a7b609add4166f20';
+    var choose_language_translate = 'Choose language:';
+    var default_language = '1';
+    var admin_modules_link = '/admin946nmqvd7/index.php/improve/modules/catalog/recommended?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI';
+    var admin_notification_get_link = '/admin946nmqvd7/index.php/common/notifications?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI';
+ ";
+        // line 43
+        echo "   var admin_notification_push_link = adminNotificationPushLink = '/admin946nmqvd7/index.php/common/notifications/ack?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI';
+    var tab_modules_list = '';
+    var update_success_msg = 'Update successful';
+    var errorLogin = 'PrestaShop was unable to log in to Addons. Please check your credentials and your Internet connection.';
+    var search_product_msg = 'Search for a product';
+  </script>
+
+      <link href=\"/admin946nmqvd7/themes/new-theme/public/theme.css\" rel=\"stylesheet\" type=\"text/css\"/>
+      <link href=\"/js/jquery/plugins/chosen/jquery.chosen.css\" rel=\"stylesheet\" type=\"text/css\"/>
+      <link href=\"/js/jquery/plugins/fancybox/jquery.fancybox.css\" rel=\"stylesheet\" type=\"text/css\"/>
+      <link href=\"/modules/blockwishlist/public/backoffice.css\" rel=\"stylesheet\" type=\"text/css\"/>
+      <link href=\"/admin946nmqvd7/themes/default/css/vendor/nv.d3.css\" rel=\"stylesheet\" type=\"text/css\"/>
+      <link href=\"/modules/gamification/views/css/gamification.css\" rel=\"stylesheet\" type=\"text/css\"/>
+      <link href=\"/modules/ps_facebook/views/css/admin/menu.css\" rel=\"stylesheet\" type=\"text/css\"/>
+      <link href=\"/modules/psxmarketingwithgoogle/views/css/admin/menu.css\" rel=\"stylesheet\" type=\"text/css\"/>
+      <link href=\"/modules/printful/views/css/tab.css\" rel=\"stylesheet\" type=\"text/css\"/>
+      <link href=\"http://localhost:8000//modules/crazyelements/assets/css/button.css\" rel=\"stylesheet\" type=\"text/css\"/>
+  
+  <script type=\"text/javascript\">
+var baseAdminDir = \"\\/admin946nmqvd7\\/\";
+var baseDir = \"\\/\";
+var changeFormLanguageUrl = \"\\/admin946nmqvd7\\/index.php\\/configure\\/advanced\\/employees\\/change-form-language?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\";
+var currency = {\"iso_code\":\"EUR\",\"sign\":\"\\u20ac\",\"name\":\"Euro\",\"format\":null};
+var currency_specifications = {\"symbol\":[\".\",\",\",\";\",\"%\",\"-\",\"+\",\"E\",\"\\u00d7\",\"\\u2030\",\"\\u221e\",\"NaN\"],\"currencyCode\":\"EUR\",\"currencySymbol\":\"\\u20ac\",\"numberSymbols\":[\".\",\",\",\";\",\"";
+        // line 66
+        echo "%\",\"-\",\"+\",\"E\",\"\\u00d7\",\"\\u2030\",\"\\u221e\",\"NaN\"],\"positivePattern\":\"\\u00a4#,##0.00\",\"negativePattern\":\"-\\u00a4#,##0.00\",\"maxFractionDigits\":2,\"minFractionDigits\":2,\"groupingUsed\":true,\"primaryGroupSize\":3,\"secondaryGroupSize\":3};
+var host_mode = false;
+var number_specifications = {\"symbol\":[\".\",\",\",\";\",\"%\",\"-\",\"+\",\"E\",\"\\u00d7\",\"\\u2030\",\"\\u221e\",\"NaN\"],\"numberSymbols\":[\".\",\",\",\";\",\"%\",\"-\",\"+\",\"E\",\"\\u00d7\",\"\\u2030\",\"\\u221e\",\"NaN\"],\"positivePattern\":\"#,##0.###\",\"negativePattern\":\"-#,##0.###\",\"maxFractionDigits\":3,\"minFractionDigits\":0,\"groupingUsed\":true,\"primaryGroupSize\":3,\"secondaryGroupSize\":3};
+var prestashop = {\"debug\":true};
+var show_new_customers = \"1\";
+var show_new_messages = \"1\";
+var show_new_orders = \"1\";
+</script>
+<script type=\"text/javascript\" src=\"/admin946nmqvd7/themes/new-theme/public/main.bundle.js\"></script>
+<script type=\"text/javascript\" src=\"/js/jquery/plugins/jquery.chosen.js\"></script>
+<script type=\"text/javascript\" src=\"/js/jquery/plugins/fancybox/jquery.fancybox.js\"></script>
+<script type=\"text/javascript\" src=\"/js/admin.js?v=1.7.8.6\"></script>
+<script type=\"text/javascript\" src=\"/admin946nmqvd7/themes/new-theme/public/cldr.bundle.js\"></script>
+<script type=\"text/javascript\" src=\"/js/tools.js?v=1.7.8.6\"></script>
+<script type=\"text/javascript\" src=\"/modules/blockwishlist/public/vendors.js\"></script>
+<script type=\"text/javascript\" src=\"/js/vendor/d3.v3.min.js\"></script>
+<script type=\"text/javascript\" src=\"/admin946nmqvd7/themes/default/js/vendor/nv.d3.min.js\"></script>
+<script type=\"text/javascript\" src=\"/modules/gamification/views/js/gamification_bt.js\"></script>
+<script type=\"text/javascript\" src=\"/modules/ps_mbo/views/js/recommended-modules.js?v=2.0.1\"></script>
+<script type=\"text/javascript\" src=\"/modules/ps_faviconnotificationbo/views/js/favico.js\"></script>
+<script type=\"text/javascript\" src=\"/modules/ps_faviconnotificationbo/views/js/ps_faviconnotificationbo.js\"></script>
+<script type=\"text/javascript\" src=\"http://localhost:8000//modules/c";
+        // line 87
+        echo "razyelements/assets/js/update_crazy.js\"></script>
+
+  <script>
+  if (undefined !== ps_faviconnotificationbo) {
+    ps_faviconnotificationbo.initialize({
+      backgroundColor: '#DF0067',
+      textColor: '#FFFFFF',
+      notificationGetUrl: '/admin946nmqvd7/index.php/common/notifications?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI',
+      CHECKBOX_ORDER: 1,
+      CHECKBOX_CUSTOMER: 1,
+      CHECKBOX_MESSAGE: 1,
+      timer: 120000, // Refresh every 2 minutes
+    });
+  }
+</script>
+<script>
+            var admin_gamification_ajax_url = \"http:\\/\\/localhost:8000\\/admin946nmqvd7\\/index.php?controller=AdminGamification&token=3605a135b893e433c91cf321417f80aa\";
+            var current_id_tab = 137;
+        </script>
+
+";
+        // line 107
+        $this->displayBlock('stylesheets', $context, $blocks);
+        $this->displayBlock('extra_stylesheets', $context, $blocks);
+        echo "</head>";
+        echo "
+
+<body
+  class=\"lang-en adminpsmbomodule\"
+  data-base-url=\"/admin946nmqvd7/index.php\"  data-token=\"x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\">
+
+  <header id=\"header\" class=\"d-print-none\">
+
+    <nav id=\"header_infos\" class=\"main-header\">
+      <button class=\"btn btn-primary-reverse onclick btn-lg unbind ajax-spinner\"></button>
+
+            <i class=\"material-icons js-mobile-menu\">menu</i>
+      <a id=\"header_logo\" class=\"logo float-left\" href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminDashboard&amp;token=9c5c2fad8221a5fbdbcaffdba0348a71\"></a>
+      <span id=\"shop_version\">1.7.8.6</span>
+
+      <div class=\"component\" id=\"quick-access-container\">
+        <div class=\"dropdown quick-accesses\">
+  <button class=\"btn btn-link btn-sm dropdown-toggle\" type=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\" id=\"quick_select\">
+    Quick Access
+  </button>
+  <div class=\"dropdown-menu\">
+          <a class=\"dropdown-item quick-row-link\"
+         href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminStats&amp;module=statscheckup&amp;token=268801acda9aeffa88b93c00131b5616\"
+                 data-item=\"Catalog evaluation\"
+      >Catalog evaluation</a>
+          <a class=\"dropdown-item quick-row-link\"
+         href=\"http://localhost:8000/admin946nmqvd7/index.php/improve/modules/manage?token=6c3b783fe76833093b9b466d741e4d64\"
+                 data-item=\"Installed modules\"
+      >Installed modules</a>
+          <a class=\"dropdown-item quick-row-link\"
+         href=\"http://localhost:8000/admin946nmqvd7/index.php/sell/catalog/categories/new?token=6c3b783fe76833093b9b466d741e4d64\"
+                 data-item=\"New category\"
+      >New category</a>
+          <a class=\"dropdown-item quick-row-link\"
+         href=\"http://localhost:8000/admin946nmqvd7/index.php/sell/catalog/products/new?token=6c3b783fe76833093b9b466d741e4d64\"
+                 data-item=\"New product\"
+      >New product</a>
+          <a class=\"dropdown-item quick-row-lin";
+        // line 144
+        echo "k\"
+         href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminCartRules&amp;addcart_rule&amp;token=36f2a9fd26a5b6c5f7892bf287d5feed\"
+                 data-item=\"New voucher\"
+      >New voucher</a>
+          <a class=\"dropdown-item quick-row-link\"
+         href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminOrders&amp;token=4dc045a3223e9fe0b9f4316ac6eb1cd2\"
+                 data-item=\"Orders\"
+      >Orders</a>
+        <div class=\"dropdown-divider\"></div>
+          <a id=\"quick-add-link\"
+        class=\"dropdown-item js-quick-link\"
+        href=\"#\"
+        data-rand=\"137\"
+        data-icon=\"icon-AdminParentModulesCatalog\"
+        data-method=\"add\"
+        data-url=\"index.php/modules/addons/modules/catalog?-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\"
+        data-post-link=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminQuickAccesses&token=70158036479ffe8027139a938edb757e\"
+        data-prompt-text=\"Please name this shortcut:\"
+        data-link=\"Module Catalog - List\"
+      >
+        <i class=\"material-icons\">add_circle</i>
+        Add current page to Quick Access
+      </a>
+        <a id=\"quick-manage-link\" class=\"dropdown-item\" href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminQuickAccesses&token=70158036479ffe8027139a938edb757e\">
+      <i class=\"material-icons\">settings</i>
+      Manage your quick accesses
+    </a>
+  </div>
+</div>
+      </div>
+      <div class=\"component\" id=\"header-search-container\">
+        <form id=\"header_search\"
+      class=\"bo_search_form dropdown-form js-dropdown-form collapsed\"
+      method=\"post\"
+      action=\"/admin946nmqvd7/index.php?controller=AdminSearch&amp;token=12ece5ea4051dc508954b1277ce42645\"
+      role=\"search\">
+  <input type=\"hidden\" name=\"bo_search_type\" id=\"bo_search_type\" class=\"js-search-type\" />
+    <div class=\"input-group\">
+    <input type=\"text\" class=\"form-control js-form-search\" id=\"bo_query\" name=\"bo_query\" value=\"\" placeholder=\"Search (e.g.: product refere";
+        // line 182
+        echo "nce, customer name…)\" aria-label=\"Searchbar\">
+    <div class=\"input-group-append\">
+      <button type=\"button\" class=\"btn btn-outline-secondary dropdown-toggle js-dropdown-toggle\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">
+        Everywhere
+      </button>
+      <div class=\"dropdown-menu js-items-list\">
+        <a class=\"dropdown-item\" data-item=\"Everywhere\" href=\"#\" data-value=\"0\" data-placeholder=\"What are you looking for?\" data-icon=\"icon-search\"><i class=\"material-icons\">search</i> Everywhere</a>
+        <div class=\"dropdown-divider\"></div>
+        <a class=\"dropdown-item\" data-item=\"Catalog\" href=\"#\" data-value=\"1\" data-placeholder=\"Product name, reference, etc.\" data-icon=\"icon-book\"><i class=\"material-icons\">store_mall_directory</i> Catalog</a>
+        <a class=\"dropdown-item\" data-item=\"Customers by name\" href=\"#\" data-value=\"2\" data-placeholder=\"Name\" data-icon=\"icon-group\"><i class=\"material-icons\">group</i> Customers by name</a>
+        <a class=\"dropdown-item\" data-item=\"Customers by ip address\" href=\"#\" data-value=\"6\" data-placeholder=\"123.45.67.89\" data-icon=\"icon-desktop\"><i class=\"material-icons\">desktop_mac</i> Customers by IP address</a>
+        <a class=\"dropdown-item\" data-item=\"Orders\" href=\"#\" data-value=\"3\" data-placeholder=\"Order ID\" data-icon=\"icon-credit-card\"><i class=\"material-icons\">shopping_basket</i> Orders</a>
+        <a class=\"dropdown-item\" data-item=\"Invoices\" href=\"#\" data-value=\"4\" data-placeholder=\"Invoice number\" data-icon=\"icon-book\"><i class=\"material-icons\">book</i> Invoices</a>
+        <a class=\"dropdown-item\" data-item=\"Carts\" href=\"#\" data-value=\"5\" data-placeholder=\"Cart ID\" data-icon=\"icon-shopping-cart\"><i class=\"material-icons\">shopping_cart</i> Carts</a>
+        <a class=\"dropdown-item\" data-item=\"Modules\" href=\"#\" data-value=\"7\" data-placeholder=\"Module name\" data-icon=\"icon-puzzle-piece\"><i class=\"material-icons\">extension</i> Modules</a>
+      </div>
+      <button class=\"btn btn-primary\"";
+        // line 198
+        echo " type=\"submit\"><span class=\"d-none\">SEARCH</span><i class=\"material-icons\">search</i></button>
+    </div>
+  </div>
+</form>
+
+<script type=\"text/javascript\">
+ \$(document).ready(function(){
+    \$('#bo_query').one('click', function() {
+    \$(this).closest('form').removeClass('collapsed');
+  });
+});
+</script>
+      </div>
+
+              <div class=\"component hide-mobile-sm\" id=\"header-debug-mode-container\">
+          <a class=\"link shop-state\"
+             id=\"debug-mode\"
+             data-toggle=\"pstooltip\"
+             data-placement=\"bottom\"
+             data-html=\"true\"
+             title=\"<p class='text-left'><strong>Your shop is in debug mode.</strong></p><p class='text-left'>All the PHP errors and messages are displayed. When you no longer need it, <strong>turn off</strong> this mode.</p>\"
+             href=\"/admin946nmqvd7/index.php/configure/advanced/performance/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\"
+          >
+            <i class=\"material-icons\">bug_report</i>
+            <span>Debug mode</span>
+          </a>
+        </div>
+      
+      
+              <div class=\"component\" id=\"header-shop-list-container\">
+            <div class=\"shop-list\">
+    <a class=\"link\" id=\"header_shopname\" href=\"http://localhost:8000/\" target= \"_blank\">
+      <i class=\"material-icons\">visibility</i>
+      <span>View my shop</span>
+    </a>
+  </div>
+        </div>
+                    <div class=\"component header-right-component\" id=\"header-notifications-container\">
+          <div id=\"notif\" class=\"notification-center dropdown dropdown-clickable\">
+  <button class=\"btn notification js-notification dropdown-toggle\" data-toggle=\"dropdown\">
+    <i class=\"material-icons\">notifications_none</i>
+    <span id=\"notifications-total\" class=\"count hide\">0</span>
+  </button>
+  <div class=\"dropdown-menu dropdown-menu-right js-notifs_dropdown\">
+    <div class=\"notifications\">
+      <ul class=\"nav nav-tabs\" role=\"tablist\">
+                          <li class=\"nav-item\">
+            <a
+";
+        // line 246
+        echo "              class=\"nav-link active\"
+              id=\"orders-tab\"
+              data-toggle=\"tab\"
+              data-type=\"order\"
+              href=\"#orders-notifications\"
+              role=\"tab\"
+            >
+              Orders<span id=\"_nb_new_orders_\"></span>
+            </a>
+          </li>
+                                    <li class=\"nav-item\">
+            <a
+              class=\"nav-link \"
+              id=\"customers-tab\"
+              data-toggle=\"tab\"
+              data-type=\"customer\"
+              href=\"#customers-notifications\"
+              role=\"tab\"
+            >
+              Customers<span id=\"_nb_new_customers_\"></span>
+            </a>
+          </li>
+                                    <li class=\"nav-item\">
+            <a
+              class=\"nav-link \"
+              id=\"messages-tab\"
+              data-toggle=\"tab\"
+              data-type=\"customer_message\"
+              href=\"#messages-notifications\"
+              role=\"tab\"
+            >
+              Messages<span id=\"_nb_new_messages_\"></span>
+            </a>
+          </li>
+                        </ul>
+
+      <!-- Tab panes -->
+      <div class=\"tab-content\">
+                          <div class=\"tab-pane active empty\" id=\"orders-notifications\" role=\"tabpanel\">
+            <p class=\"no-notification\">
+              No new order for now :(<br>
+              Have you checked your <strong><a href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminCarts&action=filterOnlyAbandonedCarts&token=8274bd100153d121d4155dd27bc7f114\">abandoned carts</a></strong>?<br>Your next order could be hiding there!
+            </p>
+            <div class=\"notification-elements\"></div>
+          </div>
+                                    <div class=\"tab-pane  empty\" id=\"customers-notifications\" role=\"tabpanel\">
+            <p class=\"no-notification\">
+              No new customer for now :(<br>
+              Are you active on social media these days?
+            </p>
+            <div class=\"noti";
+        // line 296
+        echo "fication-elements\"></div>
+          </div>
+                                    <div class=\"tab-pane  empty\" id=\"messages-notifications\" role=\"tabpanel\">
+            <p class=\"no-notification\">
+              No new message for now.<br>
+              Seems like all your customers are happy :)
+            </p>
+            <div class=\"notification-elements\"></div>
+          </div>
+                        </div>
+    </div>
+  </div>
+</div>
+
+  <script type=\"text/html\" id=\"order-notification-template\">
+    <a class=\"notif\" href='order_url'>
+      #_id_order_ -
+      from <strong>_customer_name_</strong> (_iso_code_)_carrier_
+      <strong class=\"float-sm-right\">_total_paid_</strong>
+    </a>
+  </script>
+
+  <script type=\"text/html\" id=\"customer-notification-template\">
+    <a class=\"notif\" href='customer_url'>
+      #_id_customer_ - <strong>_customer_name_</strong>_company_ - registered <strong>_date_add_</strong>
+    </a>
+  </script>
+
+  <script type=\"text/html\" id=\"message-notification-template\">
+    <a class=\"notif\" href='message_url'>
+    <span class=\"message-notification-status _status_\">
+      <i class=\"material-icons\">fiber_manual_record</i> _status_
+    </span>
+      - <strong>_customer_name_</strong> (_company_) - <i class=\"material-icons\">access_time</i> _date_add_
+    </a>
+  </script>
+        </div>
+      
+      <div class=\"component\" id=\"header-employee-container\">
+        <div class=\"dropdown employee-dropdown\">
+  <div class=\"rounded-circle person\" data-toggle=\"dropdown\">
+    <i class=\"material-icons\">account_circle</i>
+  </div>
+  <div class=\"dropdown-menu dropdown-menu-right\">
+    <div class=\"employee-wrapper-avatar\">
+
+      <span class=\"employee-avatar\"><img class=\"avatar rounded-circle\" src=\"http://localhost:8000/img/pr/default.jpg\" /></span>
+      <span class=\"employee_profile\">Welcome back Jeyson Ulises</span>
+      <a class=\"dropdown-item employee-link profile-link\" href=\"/admin946nmqvd7/index.php/configure/advanced/employees/1/edit?_token=x5HrQ-1GuTmpJORqN_";
+        // line 344
+        echo "8TxOOuQ1LkpGXowEjaIvq7XTI\">
+      <i class=\"material-icons\">edit</i>
+      <span>Your profile</span>
+    </a>
+    </div>
+
+    <p class=\"divider\"></p>
+    <a class=\"dropdown-item\" href=\"https://www.prestashop.com/en/resources/documentations?utm_source=back-office&amp;utm_medium=profile&amp;utm_campaign=resources-en&amp;utm_content=download17\" target=\"_blank\" rel=\"noreferrer\"><i class=\"material-icons\">book</i> Resources</a>
+    <a class=\"dropdown-item\" href=\"https://www.prestashop.com/en/training?utm_source=back-office&amp;utm_medium=profile&amp;utm_campaign=training-en&amp;utm_content=download17\" target=\"_blank\" rel=\"noreferrer\"><i class=\"material-icons\">school</i> Training</a>
+    <a class=\"dropdown-item\" href=\"https://www.prestashop.com/en/experts?utm_source=back-office&amp;utm_medium=profile&amp;utm_campaign=expert-en&amp;utm_content=download17\" target=\"_blank\" rel=\"noreferrer\"><i class=\"material-icons\">person_pin_circle</i> Find an Expert</a>
+    <a class=\"dropdown-item\" href=\"https://addons.prestashop.com?utm_source=back-office&amp;utm_medium=profile&amp;utm_campaign=addons-en&amp;utm_content=download17\" target=\"_blank\" rel=\"noreferrer\"><i class=\"material-icons\">extension</i> PrestaShop Marketplace</a>
+    <a class=\"dropdown-item\" href=\"https://www.prestashop.com/en/contact?utm_source=back-office&amp;utm_medium=profile&amp;utm_campaign=help-center-en&amp;utm_content=download17\" target=\"_blank\" rel=\"noreferrer\"><i class=\"material-icons\">help</i> Help Center</a>
+    <p class=\"divider\"></p>
+    <a class=\"dropdown-item employee-link text-center\" id=\"header_logout\" href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminLogin&amp;logout=1&amp;token=d121ed026ccce438f4fe01641eb7159f\">
+      <i class=\"material-icons d-lg-none\">power_settings_new</i>
+      <span>Sign out</span>
+    </a>
+  </div>
+</div>
+      </div>
+          </nav>
+  </header>
+
+  <nav class=\"nav-bar d-none d-print-none d-md-block\">
+  <span class=\"menu-collapse\" data-toggle-url=\"/admin946nmqv";
+        // line 368
+        echo "d7/index.php/configure/advanced/employees/toggle-navigation?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\">
+    <i class=\"material-icons\">chevron_left</i>
+    <i class=\"material-icons\">chevron_left</i>
+  </span>
+
+  <div class=\"nav-bar-overflow\">
+      <ul class=\"main-menu\">
+              
+                    
+                    
+          
+            <li class=\"link-levelone\" data-submenu=\"1\" id=\"tab-AdminDashboard\">
+              <a href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminDashboard&amp;token=9c5c2fad8221a5fbdbcaffdba0348a71\" class=\"link\" >
+                <i class=\"material-icons\">trending_up</i> <span>Dashboard</span>
+              </a>
+            </li>
+
+          
+                      
+                                          
+                    
+          
+            <li class=\"category-title\" data-submenu=\"2\" id=\"tab-SELL\">
+                <span class=\"title\">Sell</span>
+            </li>
+
+                              
+                  
+                                                      
+                  
+                  <li class=\"link-levelone has_submenu\" data-submenu=\"3\" id=\"subtab-AdminParentOrders\">
+                    <a href=\"/admin946nmqvd7/index.php/sell/orders/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\">
+                      <i class=\"material-icons mi-shopping_basket\">shopping_basket</i>
+                      <span>
+                      Orders
+                      </span>
+                                                    <i class=\"material-icons sub-tabs-arrow\">
+                                                                    keyboard_arrow_down
+                                                            </i>
+                                            </a>
+                                              <ul id=\"collapse-3\" class=\"submenu panel-collapse\">
+                                                      
+                              
+                                  ";
+        // line 411
+        echo "                          
+                              <li class=\"link-leveltwo\" data-submenu=\"4\" id=\"subtab-AdminOrders\">
+                                <a href=\"/admin946nmqvd7/index.php/sell/orders/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Orders
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"5\" id=\"subtab-AdminInvoices\">
+                                <a href=\"/admin946nmqvd7/index.php/sell/orders/invoices/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Invoices
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"6\" id=\"subtab-AdminSlip\">
+                                <a href=\"/admin946nmqvd7/index.php/sell/orders/credit-slips/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Credit Slips
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"7\" id=\"subtab-AdminDeliverySlip\">
+                                <a href=\"/admin946nmqvd7/index.php/sell/orders/delivery-slips/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Delivery Slips
+                                </a>
+                              </li>
+
+                                                                                  
+      ";
+        // line 442
+        echo "                        
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"8\" id=\"subtab-AdminCarts\">
+                                <a href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminCarts&amp;token=8274bd100153d121d4155dd27bc7f114\" class=\"link\"> Shopping Carts
+                                </a>
+                              </li>
+
+                                                                              </ul>
+                                        </li>
+                                              
+                  
+                                                      
+                  
+                  <li class=\"link-levelone has_submenu\" data-submenu=\"9\" id=\"subtab-AdminCatalog\">
+                    <a href=\"/admin946nmqvd7/index.php/sell/catalog/products?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\">
+                      <i class=\"material-icons mi-store\">store</i>
+                      <span>
+                      Catalog
+                      </span>
+                                                    <i class=\"material-icons sub-tabs-arrow\">
+                                                                    keyboard_arrow_down
+                                                            </i>
+                                            </a>
+                                              <ul id=\"collapse-9\" class=\"submenu panel-collapse\">
+                                                      
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"10\" id=\"subtab-AdminProducts\">
+                                <a href=\"/admin946nmqvd7/index.php/sell/catalog/products?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Products
+                                </a>
+                              </li>
+
+            ";
+        // line 474
+        echo "                                                                      
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"11\" id=\"subtab-AdminCategories\">
+                                <a href=\"/admin946nmqvd7/index.php/sell/catalog/categories?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Categories
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"12\" id=\"subtab-AdminTracking\">
+                                <a href=\"/admin946nmqvd7/index.php/sell/catalog/monitoring/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Monitoring
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"13\" id=\"subtab-AdminParentAttributesGroups\">
+                                <a href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminAttributesGroups&amp;token=a140275ac523e895863e274bd8fba6bf\" class=\"link\"> Attributes &amp; Features
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"16\" id=\"subtab-AdminParentManufacturers\">
+                                <a href=\"/admin946nmqvd7/index.php/sell/catalog/brands/?_token=x5HrQ-1GuTmpJORqN_8TxO";
+        // line 502
+        echo "OuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Brands &amp; Suppliers
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"19\" id=\"subtab-AdminAttachments\">
+                                <a href=\"/admin946nmqvd7/index.php/sell/attachments/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Files
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"20\" id=\"subtab-AdminParentCartRules\">
+                                <a href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminCartRules&amp;token=36f2a9fd26a5b6c5f7892bf287d5feed\" class=\"link\"> Discounts
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"23\" id=\"subtab-AdminStockManagement\">
+                                <a href=\"/admin946nmqvd7/index.php/sell/stocks/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Stock
+                                </a>
+                              </li>
+
+                                                                              </ul>
+                                        </li>
+                                              
+                  
+                                                      
+                  
+                  <li class=\"link-leve";
+        // line 536
+        echo "lone has_submenu\" data-submenu=\"24\" id=\"subtab-AdminParentCustomer\">
+                    <a href=\"/admin946nmqvd7/index.php/sell/customers/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\">
+                      <i class=\"material-icons mi-account_circle\">account_circle</i>
+                      <span>
+                      Customers
+                      </span>
+                                                    <i class=\"material-icons sub-tabs-arrow\">
+                                                                    keyboard_arrow_down
+                                                            </i>
+                                            </a>
+                                              <ul id=\"collapse-24\" class=\"submenu panel-collapse\">
+                                                      
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"25\" id=\"subtab-AdminCustomers\">
+                                <a href=\"/admin946nmqvd7/index.php/sell/customers/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Customers
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"26\" id=\"subtab-AdminAddresses\">
+                                <a href=\"/admin946nmqvd7/index.php/sell/addresses/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Addresses
+                                </a>
+                              </li>
+
+                                                                                                                                    </ul>
+                                        </li>
+                                              
+";
+        // line 566
+        echo "                  
+                                                      
+                  
+                  <li class=\"link-levelone has_submenu\" data-submenu=\"28\" id=\"subtab-AdminParentCustomerThreads\">
+                    <a href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminCustomerThreads&amp;token=f50ca760cb4b4611889f34769bb0dee2\" class=\"link\">
+                      <i class=\"material-icons mi-chat\">chat</i>
+                      <span>
+                      Customer Service
+                      </span>
+                                                    <i class=\"material-icons sub-tabs-arrow\">
+                                                                    keyboard_arrow_down
+                                                            </i>
+                                            </a>
+                                              <ul id=\"collapse-28\" class=\"submenu panel-collapse\">
+                                                      
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"29\" id=\"subtab-AdminCustomerThreads\">
+                                <a href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminCustomerThreads&amp;token=f50ca760cb4b4611889f34769bb0dee2\" class=\"link\"> Customer Service
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"30\" id=\"subtab-AdminOrderMessage\">
+                                <a href=\"/admin946nmqvd7/index.php/sell/customer-service/order-messages/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Order Messages
+                                </a>
+                              </li>
+
+     ";
+        // line 596
+        echo "                                                                             
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"31\" id=\"subtab-AdminReturn\">
+                                <a href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminReturn&amp;token=5d1a4f589b864c8fd3d05147f84f4e9c\" class=\"link\"> Merchandise Returns
+                                </a>
+                              </li>
+
+                                                                              </ul>
+                                        </li>
+                                              
+                  
+                                                      
+                  
+                  <li class=\"link-levelone has_submenu\" data-submenu=\"32\" id=\"subtab-AdminStats\">
+                    <a href=\"/admin946nmqvd7/index.php/modules/metrics/legacy/stats?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\">
+                      <i class=\"material-icons mi-assessment\">assessment</i>
+                      <span>
+                      Stats
+                      </span>
+                                                    <i class=\"material-icons sub-tabs-arrow\">
+                                                                    keyboard_arrow_down
+                                                            </i>
+                                            </a>
+                                              <ul id=\"collapse-32\" class=\"submenu panel-collapse\">
+                                                      
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"142\" id=\"subtab-AdminMetricsLegacyStatsController\">
+                                <a href=\"/admin946nmqvd7/index.php/modules/metrics/legacy/stats?_token=x5HrQ-1GuTmpJORqN_8";
+        // line 625
+        echo "TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Stats
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"143\" id=\"subtab-AdminMetricsController\">
+                                <a href=\"/admin946nmqvd7/index.php/modules/metrics?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> PrestaShop Metrics
+                                </a>
+                              </li>
+
+                                                                              </ul>
+                                        </li>
+                              
+          
+                      
+                                          
+                    
+          
+            <li class=\"category-title link-active\" data-submenu=\"42\" id=\"tab-IMPROVE\">
+                <span class=\"title\">Improve</span>
+            </li>
+
+                              
+                  
+                                                      
+                                                          
+                  <li class=\"link-levelone has_submenu link-active open ul-open\" data-submenu=\"43\" id=\"subtab-AdminParentModulesSf\">
+                    <a href=\"/admin946nmqvd7/index.php/improve/modules/manage?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\">
+                      <i class=\"material-icons mi-extension\">extension</i>
+                      <span>
+                      Modules
+                      </span>
+                                                    <i class=\"material-icons sub-tabs-arrow\">
+                                                                    keyboard_arrow_up
+                                                            </i>
+                                            </a>
+                          ";
+        // line 663
+        echo "                    <ul id=\"collapse-43\" class=\"submenu panel-collapse\">
+                                                      
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"44\" id=\"subtab-AdminModulesSf\">
+                                <a href=\"/admin946nmqvd7/index.php/improve/modules/manage?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Module Manager
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo link-active\" data-submenu=\"48\" id=\"subtab-AdminParentModulesCatalog\">
+                                <a href=\"/admin946nmqvd7/index.php/modules/addons/modules/catalog?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Module Catalog
+                                </a>
+                              </li>
+
+                                                                                                                                                                                          </ul>
+                                        </li>
+                                              
+                  
+                                                      
+                  
+                  <li class=\"link-levelone has_submenu\" data-submenu=\"52\" id=\"subtab-AdminParentThemes\">
+                    <a href=\"/admin946nmqvd7/index.php/improve/design/themes/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\">
+                      <i class=\"material-icons mi-desktop_mac\">desktop_mac</i>
+                      <span>
+                      Design
+                      </span>
+                                                    <i class=\"material-icons sub-tabs-";
+        // line 692
+        echo "arrow\">
+                                                                    keyboard_arrow_down
+                                                            </i>
+                                            </a>
+                                              <ul id=\"collapse-52\" class=\"submenu panel-collapse\">
+                                                      
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"130\" id=\"subtab-AdminThemesParent\">
+                                <a href=\"/admin946nmqvd7/index.php/improve/design/themes/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Theme &amp; Logo
+                                </a>
+                              </li>
+
+                                                                                                                                        
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"140\" id=\"subtab-AdminPsMboTheme\">
+                                <a href=\"/admin946nmqvd7/index.php/modules/addons/themes/catalog?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Theme Catalog
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"55\" id=\"subtab-AdminParentMailTheme\">
+                                <a href=\"/admin946nmqvd7/index.php/improve/design/mail_theme/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Email Theme
+                                </a>
+                              </li>
+
+                                                                              ";
+        // line 721
+        echo "    
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"57\" id=\"subtab-AdminCmsContent\">
+                                <a href=\"/admin946nmqvd7/index.php/improve/design/cms-pages/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Pages
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"58\" id=\"subtab-AdminModulesPositions\">
+                                <a href=\"/admin946nmqvd7/index.php/improve/design/modules/positions/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Positions
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"59\" id=\"subtab-AdminImages\">
+                                <a href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminImages&amp;token=4d20ad7c1af4124c91a43c9b9f31f609\" class=\"link\"> Image Settings
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"129\" id=\"subtab-AdminLinkWidget\">
+                                <a href=\"/admin946nmqvd7/index.php/modules/link-widget/list?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Link List
+                                </a>
+          ";
+        // line 751
+        echo "                    </li>
+
+                                                                              </ul>
+                                        </li>
+                                              
+                  
+                                                      
+                  
+                  <li class=\"link-levelone has_submenu\" data-submenu=\"60\" id=\"subtab-AdminParentShipping\">
+                    <a href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminCarriers&amp;token=a31c710e807978f67b57ade477da6beb\" class=\"link\">
+                      <i class=\"material-icons mi-local_shipping\">local_shipping</i>
+                      <span>
+                      Shipping
+                      </span>
+                                                    <i class=\"material-icons sub-tabs-arrow\">
+                                                                    keyboard_arrow_down
+                                                            </i>
+                                            </a>
+                                              <ul id=\"collapse-60\" class=\"submenu panel-collapse\">
+                                                      
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"61\" id=\"subtab-AdminCarriers\">
+                                <a href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminCarriers&amp;token=a31c710e807978f67b57ade477da6beb\" class=\"link\"> Carriers
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"62\" id=\"subtab-AdminShipping\">
+                                <a href=\"/admin946nmqvd7/index.php/improve/shipping/prefe";
+        // line 782
+        echo "rences/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Preferences
+                                </a>
+                              </li>
+
+                                                                              </ul>
+                                        </li>
+                                              
+                  
+                                                      
+                  
+                  <li class=\"link-levelone has_submenu\" data-submenu=\"63\" id=\"subtab-AdminParentPayment\">
+                    <a href=\"/admin946nmqvd7/index.php/improve/payment/payment_methods?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\">
+                      <i class=\"material-icons mi-payment\">payment</i>
+                      <span>
+                      Payment
+                      </span>
+                                                    <i class=\"material-icons sub-tabs-arrow\">
+                                                                    keyboard_arrow_down
+                                                            </i>
+                                            </a>
+                                              <ul id=\"collapse-63\" class=\"submenu panel-collapse\">
+                                                      
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"64\" id=\"subtab-AdminPayment\">
+                                <a href=\"/admin946nmqvd7/index.php/improve/payment/payment_methods?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Payment Methods
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"65\" id=\"s";
+        // line 814
+        echo "ubtab-AdminPaymentPreferences\">
+                                <a href=\"/admin946nmqvd7/index.php/improve/payment/preferences?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Preferences
+                                </a>
+                              </li>
+
+                                                                              </ul>
+                                        </li>
+                                              
+                  
+                                                      
+                  
+                  <li class=\"link-levelone has_submenu\" data-submenu=\"66\" id=\"subtab-AdminInternational\">
+                    <a href=\"/admin946nmqvd7/index.php/improve/international/localization/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\">
+                      <i class=\"material-icons mi-language\">language</i>
+                      <span>
+                      International
+                      </span>
+                                                    <i class=\"material-icons sub-tabs-arrow\">
+                                                                    keyboard_arrow_down
+                                                            </i>
+                                            </a>
+                                              <ul id=\"collapse-66\" class=\"submenu panel-collapse\">
+                                                      
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"67\" id=\"subtab-AdminParentLocalization\">
+                                <a href=\"/admin946nmqvd7/index.php/improve/international/localization/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Localization
+                                </a>
+                              </li>
+
+                                                                                  
+                            ";
+        // line 845
+        echo "  
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"72\" id=\"subtab-AdminParentCountries\">
+                                <a href=\"/admin946nmqvd7/index.php/improve/international/zones/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Locations
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"76\" id=\"subtab-AdminParentTaxes\">
+                                <a href=\"/admin946nmqvd7/index.php/improve/international/taxes/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Taxes
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"79\" id=\"subtab-AdminTranslations\">
+                                <a href=\"/admin946nmqvd7/index.php/improve/international/translations/settings?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Translations
+                                </a>
+                              </li>
+
+                                                                              </ul>
+                                        </li>
+                                              
+                  
+                                                      
+                  
+                  <li class=\"link-levelone has_submenu\" data-submenu=\"144\" id=\"subtab-Marketing\">
+                    <a href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminPsfacebookModule&amp;token=bd8eb9e196443f1c3d95ac6b5a7c91";
+        // line 875
+        echo "c2\" class=\"link\">
+                      <i class=\"material-icons mi-campaign\">campaign</i>
+                      <span>
+                      Marketing
+                      </span>
+                                                    <i class=\"material-icons sub-tabs-arrow\">
+                                                                    keyboard_arrow_down
+                                                            </i>
+                                            </a>
+                                              <ul id=\"collapse-144\" class=\"submenu panel-collapse\">
+                                                      
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"145\" id=\"subtab-AdminPsfacebookModule\">
+                                <a href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminPsfacebookModule&amp;token=bd8eb9e196443f1c3d95ac6b5a7c91c2\" class=\"link\"> Facebook
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"147\" id=\"subtab-AdminPsxMktgWithGoogleModule\">
+                                <a href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminPsxMktgWithGoogleModule&amp;token=b607342a69e1ba15b1c17bba353844d4\" class=\"link\"> Google
+                                </a>
+                              </li>
+
+                                                                              </ul>
+                                        </li>
+                                              
+                  
+                                                      
+                  
+                  <li class=\"link-levelone has_submenu\" data-submenu=\"158\"";
+        // line 907
+        echo " id=\"subtab-PrintfulHome\">
+                    <a href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=PrintfulDashboard&amp;token=f5172c9b389d389088c26f62c3a67901\" class=\"link\">
+                      <i class=\"material-icons mi-\"></i>
+                      <span>
+                      Printful
+                      </span>
+                                                    <i class=\"material-icons sub-tabs-arrow\">
+                                                                    keyboard_arrow_down
+                                                            </i>
+                                            </a>
+                                              <ul id=\"collapse-158\" class=\"submenu panel-collapse\">
+                                                      
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"159\" id=\"subtab-PrintfulDashboard\">
+                                <a href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=PrintfulDashboard&amp;token=f5172c9b389d389088c26f62c3a67901\" class=\"link\"> Dashboard
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"160\" id=\"subtab-PrintfulOrders\">
+                                <a href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=PrintfulOrders&amp;token=c1b416fdf38febbded1efd09bf1aca6e\" class=\"link\"> Orders
+                                </a>
+                              </li>
+
+                                                                              </ul>
+                                        </li>
+                              
+          
+                      
+                             ";
+        // line 939
+        echo "             
+                    
+          
+            <li class=\"category-title\" data-submenu=\"80\" id=\"tab-CONFIGURE\">
+                <span class=\"title\">Configure</span>
+            </li>
+
+                              
+                  
+                                                      
+                  
+                  <li class=\"link-levelone has_submenu\" data-submenu=\"81\" id=\"subtab-ShopParameters\">
+                    <a href=\"/admin946nmqvd7/index.php/configure/shop/preferences/preferences?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\">
+                      <i class=\"material-icons mi-settings\">settings</i>
+                      <span>
+                      Shop Parameters
+                      </span>
+                                                    <i class=\"material-icons sub-tabs-arrow\">
+                                                                    keyboard_arrow_down
+                                                            </i>
+                                            </a>
+                                              <ul id=\"collapse-81\" class=\"submenu panel-collapse\">
+                                                      
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"82\" id=\"subtab-AdminParentPreferences\">
+                                <a href=\"/admin946nmqvd7/index.php/configure/shop/preferences/preferences?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> General
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"85\" id=\"subtab-AdminParentOrderPreferences\">
+                                <a href=\"/admin946nmq";
+        // line 973
+        echo "vd7/index.php/configure/shop/order-preferences/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Order Settings
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"88\" id=\"subtab-AdminPPreferences\">
+                                <a href=\"/admin946nmqvd7/index.php/configure/shop/product-preferences/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Product Settings
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"89\" id=\"subtab-AdminParentCustomerPreferences\">
+                                <a href=\"/admin946nmqvd7/index.php/configure/shop/customer-preferences/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Customer Settings
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"93\" id=\"subtab-AdminParentStores\">
+                                <a href=\"/admin946nmqvd7/index.php/configure/shop/contacts/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Contact
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+       ";
+        // line 1004
+        echo "                       <li class=\"link-leveltwo\" data-submenu=\"96\" id=\"subtab-AdminParentMeta\">
+                                <a href=\"/admin946nmqvd7/index.php/configure/shop/seo-urls/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Traffic &amp; SEO
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"100\" id=\"subtab-AdminParentSearchConf\">
+                                <a href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminSearchConf&amp;token=8db72734a767008ab9c2cac7ef5619ee\" class=\"link\"> Search
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"134\" id=\"subtab-AdminGamification\">
+                                <a href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminGamification&amp;token=3605a135b893e433c91cf321417f80aa\" class=\"link\"> Merchant Expertise
+                                </a>
+                              </li>
+
+                                                                              </ul>
+                                        </li>
+                                              
+                  
+                                                      
+                  
+                  <li class=\"link-levelone has_submenu\" data-submenu=\"103\" id=\"subtab-AdminAdvancedParameters\">
+                    <a href=\"/admin946nmqvd7/index.php/configure/advanced/system-information/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\">
+                      <i";
+        // line 1033
+        echo " class=\"material-icons mi-settings_applications\">settings_applications</i>
+                      <span>
+                      Advanced Parameters
+                      </span>
+                                                    <i class=\"material-icons sub-tabs-arrow\">
+                                                                    keyboard_arrow_down
+                                                            </i>
+                                            </a>
+                                              <ul id=\"collapse-103\" class=\"submenu panel-collapse\">
+                                                      
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"104\" id=\"subtab-AdminInformation\">
+                                <a href=\"/admin946nmqvd7/index.php/configure/advanced/system-information/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Information
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"105\" id=\"subtab-AdminPerformance\">
+                                <a href=\"/admin946nmqvd7/index.php/configure/advanced/performance/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Performance
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"106\" id=\"subtab-AdminAdminPreferences\">
+                                <a href=\"/admin946nmqvd7/index.php/configure/advanced/administration/?";
+        // line 1062
+        echo "_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Administration
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"107\" id=\"subtab-AdminEmails\">
+                                <a href=\"/admin946nmqvd7/index.php/configure/advanced/emails/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> E-mail
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"108\" id=\"subtab-AdminImport\">
+                                <a href=\"/admin946nmqvd7/index.php/configure/advanced/import/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Import
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"109\" id=\"subtab-AdminParentEmployees\">
+                                <a href=\"/admin946nmqvd7/index.php/configure/advanced/employees/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Team
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"113\" id=\"subtab-AdminParentRequestSql\">
+  ";
+        // line 1094
+        echo "                              <a href=\"/admin946nmqvd7/index.php/configure/advanced/sql-requests/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Database
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"116\" id=\"subtab-AdminLogs\">
+                                <a href=\"/admin946nmqvd7/index.php/configure/advanced/logs/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Logs
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"117\" id=\"subtab-AdminWebservice\">
+                                <a href=\"/admin946nmqvd7/index.php/configure/advanced/webservice-keys/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Webservice
+                                </a>
+                              </li>
+
+                                                                                                                                                                                              
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"120\" id=\"subtab-AdminFeatureFlag\">
+                                <a href=\"/admin946nmqvd7/index.php/configure/advanced/feature-flags/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Experimental Features
+                                </a>
+                              </li>
+
+                                                           ";
+        // line 1122
+        echo "                   </ul>
+                                        </li>
+                              
+          
+                      
+                                          
+                    
+          
+            <li class=\"category-title\" data-submenu=\"164\" id=\"tab-AdminCrazyMain\">
+                <span class=\"title\">Crazy Elements</span>
+            </li>
+
+                              
+                  
+                                                      
+                  
+                  <li class=\"link-levelone has_submenu\" data-submenu=\"165\" id=\"subtab-AdminCrazyEditor\">
+                    <a href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminCrazyContent&amp;token=ba23ad71dc950b6a785e4bc65057c1c9\" class=\"link\">
+                      <i class=\"material-icons mi-brush\">brush</i>
+                      <span>
+                      Crazy Editors
+                      </span>
+                                                    <i class=\"material-icons sub-tabs-arrow\">
+                                                                    keyboard_arrow_down
+                                                            </i>
+                                            </a>
+                                              <ul id=\"collapse-165\" class=\"submenu panel-collapse\">
+                                                      
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"173\" id=\"subtab-AdminCrazyContent\">
+                                <a href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminCrazyContent&amp;token=ba23ad71dc950b6a785e4bc65057c1c9\" class=\"link\"> Content Any Where
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                             ";
+        // line 1159
+        echo "               
+                              <li class=\"link-leveltwo\" data-submenu=\"174\" id=\"subtab-AdminCrazyPages\">
+                                <a href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminCrazyPages&amp;token=ec9ea967ed86644df2cb842438691e3a\" class=\"link\"> Pages (cms)
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"175\" id=\"subtab-AdminCrazyProducts\">
+                                <a href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminCrazyProducts&amp;token=7a0aa1b1e1700d42e543eb23111d0c30\" class=\"link\"> Products Description
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"176\" id=\"subtab-AdminCrazyCategories\">
+                                <a href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminCrazyCategories&amp;token=511d2e779e7acfd8a00e1ef2e2701988\" class=\"link\"> Categories Page (Pro)
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"177\" id=\"subtab-AdminCrazySuppliers\">
+                                <a href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminCrazySuppliers&amp;token=9bc28d8a6a7f2feec09db6ee4b30df57\" class=\"link\"> Suppliers Page
+                                </a";
+        // line 1186
+        echo ">
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"178\" id=\"subtab-AdminCrazyBrands\">
+                                <a href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminCrazyBrands&amp;token=92a9a8733e9dbe322b65810cf0fe1ea4\" class=\"link\"> Brands Page
+                                </a>
+                              </li>
+
+                                                                              </ul>
+                                        </li>
+                                              
+                  
+                                                      
+                  
+                  <li class=\"link-levelone\" data-submenu=\"166\" id=\"subtab-AdminCrazyFonts\">
+                    <a href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminCrazyFonts&amp;token=4bc20b54f31e991c3aee2530bc9917d7\" class=\"link\">
+                      <i class=\"material-icons mi-extension\">extension</i>
+                      <span>
+                      Font Manager
+                      </span>
+                                                    <i class=\"material-icons sub-tabs-arrow\">
+                                                                    keyboard_arrow_down
+                                                            </i>
+                                            </a>
+                                        </li>
+                                              
+                  
+                                                      
+                  
+                  <li class=\"link-levelone\" data-submenu=\"167\" id=\"subtab-AdminCrazyPseIcon\">
+                    <a href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminCrazyPseIcon&amp;token=29e8a00e459ad82249581763e468dafa\" clas";
+        // line 1219
+        echo "s=\"link\">
+                      <i class=\"material-icons mi-extension\">extension</i>
+                      <span>
+                      Icon Manager
+                      </span>
+                                                    <i class=\"material-icons sub-tabs-arrow\">
+                                                                    keyboard_arrow_down
+                                                            </i>
+                                            </a>
+                                        </li>
+                                              
+                  
+                                                      
+                  
+                  <li class=\"link-levelone\" data-submenu=\"168\" id=\"subtab-AdminCrazySetting\">
+                    <a href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminCrazySetting&amp;token=bcd2d9ea5951e7aeaa8e4ee97eb7bef2\" class=\"link\">
+                      <i class=\"material-icons mi-settings\">settings</i>
+                      <span>
+                      Settings
+                      </span>
+                                                    <i class=\"material-icons sub-tabs-arrow\">
+                                                                    keyboard_arrow_down
+                                                            </i>
+                                            </a>
+                                        </li>
+                                              
+                  
+                                                      
+                  
+                  <li class=\"link-levelone\" data-submenu=\"169\" id=\"subtab-AdminCrazyExtendedmodules\">
+                    <a href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminCrazyExtendedmodules&amp;token=d5e8fb416b48c5a8ad48432956b25c83\" class=\"link\">
+                      <i class=\"material-icons mi-extension\">extension</i>
+                      <span>
+                      Extend Third Party Modules
+           ";
+        // line 1253
+        echo "           </span>
+                                                    <i class=\"material-icons sub-tabs-arrow\">
+                                                                    keyboard_arrow_down
+                                                            </i>
+                                            </a>
+                                        </li>
+                              
+          
+                  </ul>
+  </div>
+  
+</nav>
+
+
+<div class=\"header-toolbar d-print-none\">
+    
+  <div class=\"container-fluid\">
+
+    
+      <nav aria-label=\"Breadcrumb\">
+        <ol class=\"breadcrumb\">
+                      <li class=\"breadcrumb-item\">Module Catalog</li>
+          
+                  </ol>
+      </nav>
+    
+
+    <div class=\"title-row\">
+      
+          <h1 class=\"title\">
+            Modules catalog          </h1>
+      
+
+      
+        <div class=\"toolbar-icons\">
+          <div class=\"wrapper\">
+            
+                                                          <a
+                  class=\"btn btn-primary pointer\"                  id=\"page-header-desc-configuration-add_module\"
+                  href=\"#\"                  title=\"Upload a module\"                  data-toggle=\"pstooltip\"
+                  data-placement=\"bottom\"                >
+                  <i class=\"material-icons\">cloud_upload</i>                  Upload a module
+                </a>
+                                                                        <a
+                  class=\"btn btn-primary pointer\"                  id=\"page-header-desc-configuration-addons_connect\"
+                  href=\"#\"                  title=\"Connect to Addons marketplace\"                  data-toggle=\"pstooltip\"
+                  data-placement=\"bottom\"                >
+                  <i class=\"material-icons\">vpn_key</i>                  Connect to Addons marketplace
+                </a>
+                                      
+            
+                              <a class=\"btn btn-outline-seconda";
+        // line 1304
+        echo "ry btn-help btn-sidebar\" href=\"#\"
+                   title=\"Help\"
+                   data-toggle=\"sidebar\"
+                   data-target=\"#right-sidebar\"
+                   data-url=\"/admin946nmqvd7/index.php/common/sidebar/https%253A%252F%252Fhelp.prestashop.com%252Fen%252Fdoc%252FAdminModules%253Fversion%253D1.7.8.6%2526country%253Den/Help?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\"
+                   id=\"product_form_open_help\"
+                >
+                  Help
+                </a>
+                                    </div>
+        </div>
+
+      
+    </div>
+  </div>
+
+  
+      <div class=\"page-head-tabs\" id=\"head_tabs\">
+      <ul class=\"nav nav-pills\">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <li class=\"nav-item\">
+                    <a href=\"/admin946nmqvd7/index.php/modules/addons/modules/catalog?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" id=\"subtab-AdminPsMboModule\" class=\"nav-link tab active current\" data-submenu=\"137\">
+                      Module Catalog
+                      <span class=\"notification-container\">
+                        <span class=\"notification-counter\"></span>
+                      </span>
+                    </a>
+                  </li>
+                                                                                              <li class=\"nav-item\">
+ ";
+        // line 1332
+        echo "                   <a href=\"/admin946nmqvd7/index.php/modules/addons/modules/catalog/selection?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" id=\"subtab-AdminPsMboAddons\" class=\"nav-link tab \" data-submenu=\"138\">
+                      Module Selections
+                      <span class=\"notification-container\">
+                        <span class=\"notification-counter\"></span>
+                      </span>
+                    </a>
+                  </li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              </ul>
+    </div>
+  
+  <div class=\"btn-floating\">
+    <button class=\"btn btn-primary collapsed\" data-toggle=\"collapse\" data-target=\".btn-floating-c";
+        // line 1343
+        echo "ontainer\" aria-expanded=\"false\">
+      <i class=\"material-icons\">add</i>
+    </button>
+    <div class=\"btn-floating-container collapse\">
+      <div class=\"btn-floating-menu\">
+        
+                              <a
+              class=\"btn btn-floating-item  pointer\"              id=\"page-header-desc-floating-configuration-add_module\"
+              href=\"#\"              title=\"Upload a module\"              data-toggle=\"pstooltip\"
+              data-placement=\"bottom\"            >
+              Upload a module
+              <i class=\"material-icons\">cloud_upload</i>            </a>
+                                        <a
+              class=\"btn btn-floating-item  pointer\"              id=\"page-header-desc-floating-configuration-addons_connect\"
+              href=\"#\"              title=\"Connect to Addons marketplace\"              data-toggle=\"pstooltip\"
+              data-placement=\"bottom\"            >
+              Connect to Addons marketplace
+              <i class=\"material-icons\">vpn_key</i>            </a>
+                  
+                              <a class=\"btn btn-floating-item btn-help btn-sidebar\" href=\"#\"
+               title=\"Help\"
+               data-toggle=\"sidebar\"
+               data-target=\"#right-sidebar\"
+               data-url=\"/admin946nmqvd7/index.php/common/sidebar/https%253A%252F%252Fhelp.prestashop.com%252Fen%252Fdoc%252FAdminModules%253Fversion%253D1.7.8.6%2526country%253Den/Help?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\"
+            >
+              Help
+            </a>
+                        </div>
+    </div>
+  </div>
+  <!-- begin /Users/jeysongonzalez/Documents/GitHub/hurricanes/modules/ps_mbo/views/templates/hook/recommended-modules.tpl -->
+<script>
+  if (undefined !== mbo) {
+    mbo.initialize({
+      translations: {
+        'Recommended Modules and Services': 'Recommended Modules and Services',
+        'Close': 'Close',
+      },
+      recommendedModulesUrl: '/admin946nmqvd7/index.php/modules/addons/modules/recomme";
+        // line 1381
+        echo "nded?tabClassName=AdminPsMboModule&_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI',
+      shouldAttachRecommendedModulesAfterContent: 0,
+      shouldAttachRecommendedModulesButton: 0,
+      shouldUseLegacyTheme: 0,
+    });
+  }
+</script>
+<!-- end /Users/jeysongonzalez/Documents/GitHub/hurricanes/modules/ps_mbo/views/templates/hook/recommended-modules.tpl -->
+</div>
+
+<div id=\"main-div\">
+          
+      <div class=\"content-div  with-tabs\">
+
+        
+
+                                                        
+        <div class=\"row \">
+          <div class=\"col-sm-12\">
+            <div id=\"ajax_confirmation\" class=\"alert alert-success\" style=\"display: none;\"></div>
+
+
+  ";
+        // line 1403
+        $this->displayBlock('content_header', $context, $blocks);
+        $this->displayBlock('content', $context, $blocks);
+        $this->displayBlock('content_footer', $context, $blocks);
+        $this->displayBlock('sidebar_right', $context, $blocks);
+        echo "
+
+            
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  <div id=\"non-responsive\" class=\"js-non-responsive\">
+  <h1>Oh no!</h1>
+  <p class=\"mt-3\">
+    The mobile version of this page is not available yet.
+  </p>
+  <p class=\"mt-2\">
+    Please use a desktop computer to access this page, until is adapted to mobile.
+  </p>
+  <p class=\"mt-2\">
+    Thank you.
+  </p>
+  <a href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminDashboard&amp;token=9c5c2fad8221a5fbdbcaffdba0348a71\" class=\"btn btn-primary py-1 mt-3\">
+    <i class=\"material-icons\">arrow_back</i>
+    Back
+  </a>
+</div>
+  <div class=\"mobile-layer\"></div>
+
+      <div id=\"footer\" class=\"bootstrap\">
+    
+</div>
+  
+
+      <div class=\"bootstrap\">
+      <div class=\"modal fade\" id=\"modal_addons_connect\" tabindex=\"-1\">
+\t<div class=\"modal-dialog modal-md\">
+\t\t<div class=\"modal-content\">
+\t\t\t\t\t\t<div class=\"modal-header\">
+\t\t\t\t<button type=\"button\" class=\"close\" data-dismiss=\"modal\">&times;</button>
+\t\t\t\t<h4 class=\"modal-title\"><i class=\"icon-puzzle-piece\"></i> <a target=\"_blank\" href=\"https://addons.prestashop.com/?utm_source=back-office&utm_medium=modules&utm_campaign=back-office-EN&utm_content=download\">PrestaShop Addons</a></h4>
+\t\t\t</div>
+\t\t\t
+\t\t\t<div class=\"modal-body\">
+\t\t\t\t\t\t<!--start addons login-->
+\t\t\t<form id=\"addons_login_form\" method=\"post\" >
+\t\t\t\t<div>
+\t\t\t\t\t<a href=\"https://addons.prestashop.com/en/login?email=Jeysongonzalezlopez%40gmail.com&amp;firstname=Jeyson+Ulises&amp;lastname=Gonzalez+Lopez&amp;website=http%3A%2F%2Flocalhost%3A8000%2F&amp;utm_source=back-office&amp;utm_medium=connect-to-addons&amp;utm_campaign=back-office-EN&amp;utm_content=download#createnow\"><img class=\"img-responsive center-block\" src=\"/admin946nmqvd7/themes/default/img/prestashop-addons-logo.png\" alt=\"Logo PrestaShop Addons\"/></a>
+\t\t\t\t\t<h3 class=\"text-center\">Connect your shop to PrestaShop's marketplace in order to automatically import all your Addons purchases.</h3>
+\t\t\t\t\t<hr />
+\t\t\t\t</div>
+\t\t\t\t<div class=\"row\">";
+        // line 1452
+        echo "
+\t\t\t\t\t<div class=\"col-md-6\">
+\t\t\t\t\t\t<h4>Don't have an account?</h4>
+\t\t\t\t\t\t<p class='text-justify'>Discover the Power of PrestaShop Addons! Explore the PrestaShop Official Marketplace and find over 3 500 innovative modules and themes that optimize conversion rates, increase traffic, build customer loyalty and maximize your productivity</p>
+\t\t\t\t\t</div>
+\t\t\t\t\t<div class=\"col-md-6\">
+\t\t\t\t\t\t<h4>Connect to PrestaShop Addons</h4>
+\t\t\t\t\t\t<div class=\"form-group\">
+\t\t\t\t\t\t\t<div class=\"input-group\">
+\t\t\t\t\t\t\t\t<div class=\"input-group-prepend\">
+\t\t\t\t\t\t\t\t\t<span class=\"input-group-text\"><i class=\"icon-user\"></i></span>
+\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t<input id=\"username_addons\" name=\"username_addons\" type=\"text\" value=\"\" autocomplete=\"off\" class=\"form-control ac_input\">
+\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t</div>
+\t\t\t\t\t\t<div class=\"form-group\">
+\t\t\t\t\t\t\t<div class=\"input-group\">
+\t\t\t\t\t\t\t\t<div class=\"input-group-prepend\">
+\t\t\t\t\t\t\t\t\t<span class=\"input-group-text\"><i class=\"icon-key\"></i></span>
+\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t<input id=\"password_addons\" name=\"password_addons\" type=\"password\" value=\"\" autocomplete=\"off\" class=\"form-control ac_input\">
+\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t<a class=\"btn btn-link float-right _blank\" href=\"//addons.prestashop.com/en/forgot-your-password\">I forgot my password</a>
+\t\t\t\t\t\t\t<br>
+\t\t\t\t\t\t</div>
+\t\t\t\t\t</div>
+\t\t\t\t</div>
+
+\t\t\t\t<div class=\"row row-padding-top\">
+\t\t\t\t\t<div class=\"col-md-6\">
+\t\t\t\t\t\t<div class=\"form-group\">
+\t\t\t\t\t\t\t<a class=\"btn btn-default btn-block btn-lg _blank\" href=\"https://addons.prestashop.com/en/login?email=Jeysongonzalezlopez%40gmail.com&amp;firstname=Jeyson+Ulises&amp;lastname=Gonzalez+Lopez&amp;website=http%3A%2F%2Flocalhost%3A8000%2F&amp;utm_source=back-office&amp;utm_medium=connect-to-addons&amp;utm_campaign=back-office-EN&amp;utm_content=download#createnow\">
+\t\t\t\t\t\t\t\tCreate an Account
+\t\t\t\t\t\t\t\t<i class=\"icon-external-link\"></i>
+\t\t\t\t\t\t\t</a>
+\t\t\t\t\t\t</div>
+\t\t\t\t\t</div>
+\t\t\t\t\t<div class=\"col-md-6\">
+\t\t\t\t\t\t<div class=\"form-group\">
+\t\t\t\t\t\t\t<button id=\"addons_login_button\" class=\"btn btn-primary btn-block";
+        // line 1491
+        echo " btn-lg\" type=\"submit\">
+\t\t\t\t\t\t\t\t<i class=\"icon-unlock\"></i> Sign in
+\t\t\t\t\t\t\t</button>
+\t\t\t\t\t\t</div>
+\t\t\t\t\t</div>
+\t\t\t\t</div>
+
+\t\t\t\t<div id=\"addons_loading\" class=\"help-block\"></div>
+
+\t\t\t</form>
+\t\t\t<!--end addons login-->
+\t\t\t</div>
+
+
+\t\t\t\t\t</div>
+\t</div>
+</div>
+
+    </div>
+  
+";
+        // line 1511
+        $this->displayBlock('javascripts', $context, $blocks);
+        $this->displayBlock('extra_javascripts', $context, $blocks);
+        $this->displayBlock('translate_javascripts', $context, $blocks);
+        echo "</body>";
+        echo "
+</html>";
+        
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->leave($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof);
+
+        
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
+
+    }
+
+    // line 107
+    public function block_stylesheets($context, array $blocks = [])
+    {
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->enter($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "stylesheets"));
+
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "stylesheets"));
+
+        
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
+
+        
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->leave($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof);
+
+    }
+
+    public function block_extra_stylesheets($context, array $blocks = [])
+    {
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->enter($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "extra_stylesheets"));
+
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "extra_stylesheets"));
+
+        
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
+
+        
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->leave($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof);
+
+    }
+
+    // line 1403
+    public function block_content_header($context, array $blocks = [])
+    {
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->enter($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "content_header"));
+
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "content_header"));
+
+        
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
+
+        
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->leave($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof);
+
+    }
+
+    public function block_content($context, array $blocks = [])
+    {
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->enter($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "content"));
+
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "content"));
+
+        
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
+
+        
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->leave($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof);
+
+    }
+
+    public function block_content_footer($context, array $blocks = [])
+    {
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->enter($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "content_footer"));
+
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "content_footer"));
+
+        
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
+
+        
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->leave($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof);
+
+    }
+
+    public function block_sidebar_right($context, array $blocks = [])
+    {
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->enter($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "sidebar_right"));
+
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "sidebar_right"));
+
+        
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
+
+        
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->leave($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof);
+
+    }
+
+    // line 1511
+    public function block_javascripts($context, array $blocks = [])
+    {
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->enter($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "javascripts"));
+
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "javascripts"));
+
+        
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
+
+        
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->leave($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof);
+
+    }
+
+    public function block_extra_javascripts($context, array $blocks = [])
+    {
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->enter($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "extra_javascripts"));
+
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "extra_javascripts"));
+
+        
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
+
+        
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->leave($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof);
+
+    }
+
+    public function block_translate_javascripts($context, array $blocks = [])
+    {
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->enter($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "translate_javascripts"));
+
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "translate_javascripts"));
+
+        
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
+
+        
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->leave($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof);
+
+    }
+
+    public function getTemplateName()
+    {
+        return "__string_template__ad87618e6b454c63ce105f296e18d9d0fedb7cfdd73a5311faceecb9eb358e19";
+    }
+
+    public function isTraitable()
+    {
+        return false;
+    }
+
+    public function getDebugInfo()
+    {
+        return array (  1769 => 1511,  1704 => 1403,  1671 => 107,  1656 => 1511,  1634 => 1491,  1593 => 1452,  1538 => 1403,  1514 => 1381,  1474 => 1343,  1461 => 1332,  1431 => 1304,  1378 => 1253,  1342 => 1219,  1307 => 1186,  1278 => 1159,  1239 => 1122,  1209 => 1094,  1175 => 1062,  1144 => 1033,  1113 => 1004,  1080 => 973,  1044 => 939,  1010 => 907,  976 => 875,  944 => 845,  911 => 814,  877 => 782,  844 => 751,  812 => 721,  781 => 692,  750 => 663,  710 => 625,  679 => 596,  647 => 566,  615 => 536,  579 => 502,  549 => 474,  515 => 442,  482 => 411,  437 => 368,  411 => 344,  361 => 296,  309 => 246,  259 => 198,  241 => 182,  201 => 144,  159 => 107,  137 => 87,  114 => 66,  89 => 43,  45 => 1,);
+    }
+
+    /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
+    public function getSource()
+    {
+        @trigger_error('The '.__METHOD__.' method is deprecated since version 1.27 and will be removed in 2.0. Use getSourceContext() instead.', E_USER_DEPRECATED);
+
+        return $this->getSourceContext()->getCode();
+    }
+
+    public function getSourceContext()
+    {
+        return new Source("{{ '<!DOCTYPE html>
+<html lang=\"en\">
+<head>
+  <meta charset=\"utf-8\">
+<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
+<meta name=\"apple-mobile-web-app-capable\" content=\"yes\">
+<meta name=\"robots\" content=\"NOFOLLOW, NOINDEX\">
+
+<link rel=\"icon\" type=\"image/x-icon\" href=\"/img/favicon.ico\" />
+<link rel=\"apple-touch-icon\" href=\"/img/app_icon.png\" />
+
+<title>Modules catalog • SHOP | Hamburg Hurricanes</title>
+
+  <script type=\"text/javascript\">
+    var help_class_name = \\'AdminPsMboModule\\';
+    var iso_user = \\'en\\';
+    var lang_is_rtl = \\'0\\';
+    var full_language_code = \\'en-us\\';
+    var full_cldr_language_code = \\'en-US\\';
+    var country_iso_code = \\'DE\\';
+    var _PS_VERSION_ = \\'1.7.8.6\\';
+    var roundMode = 2;
+    var youEditFieldFor = \\'\\';
+        var new_order_msg = \\'A new order has been placed on your shop.\\';
+    var order_number_msg = \\'Order number: \\';
+    var total_msg = \\'Total: \\';
+    var from_msg = \\'From: \\';
+    var see_order_msg = \\'View this order\\';
+    var new_customer_msg = \\'A new customer registered on your shop.\\';
+    var customer_name_msg = \\'Customer name: \\';
+    var new_msg = \\'A new message was posted on your shop.\\';
+    var see_msg = \\'Read this message\\';
+    var token = \\'0fb6c1cc315f9062dfb98e5160450d05\\';
+    var token_admin_orders = tokenAdminOrders = \\'4dc045a3223e9fe0b9f4316ac6eb1cd2\\';
+    var token_admin_customers = \\'d4b287986bcd590b3c1287393eb3a57f\\';
+    var token_admin_customer_threads = tokenAdminCustomerThreads = \\'f50ca760cb4b4611889f34769bb0dee2\\';
+    var currentIndex = \\'index.php?controller=AdminPsMboModule\\';
+    var employee_token = \\'2e5847662d1443e2a7b609add4166f20\\';
+    var choose_language_translate = \\'Choose language:\\';
+    var default_language = \\'1\\';
+    var admin_modules_link = \\'/admin946nmqvd7/index.php/improve/modules/catalog/recommended?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\\';
+    var admin_notification_get_link = \\'/admin946nmqvd7/index.php/common/notifications?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\\';
+ ' | raw }}{{ '   var admin_notification_push_link = adminNotificationPushLink = \\'/admin946nmqvd7/index.php/common/notifications/ack?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\\';
+    var tab_modules_list = \\'\\';
+    var update_success_msg = \\'Update successful\\';
+    var errorLogin = \\'PrestaShop was unable to log in to Addons. Please check your credentials and your Internet connection.\\';
+    var search_product_msg = \\'Search for a product\\';
+  </script>
+
+      <link href=\"/admin946nmqvd7/themes/new-theme/public/theme.css\" rel=\"stylesheet\" type=\"text/css\"/>
+      <link href=\"/js/jquery/plugins/chosen/jquery.chosen.css\" rel=\"stylesheet\" type=\"text/css\"/>
+      <link href=\"/js/jquery/plugins/fancybox/jquery.fancybox.css\" rel=\"stylesheet\" type=\"text/css\"/>
+      <link href=\"/modules/blockwishlist/public/backoffice.css\" rel=\"stylesheet\" type=\"text/css\"/>
+      <link href=\"/admin946nmqvd7/themes/default/css/vendor/nv.d3.css\" rel=\"stylesheet\" type=\"text/css\"/>
+      <link href=\"/modules/gamification/views/css/gamification.css\" rel=\"stylesheet\" type=\"text/css\"/>
+      <link href=\"/modules/ps_facebook/views/css/admin/menu.css\" rel=\"stylesheet\" type=\"text/css\"/>
+      <link href=\"/modules/psxmarketingwithgoogle/views/css/admin/menu.css\" rel=\"stylesheet\" type=\"text/css\"/>
+      <link href=\"/modules/printful/views/css/tab.css\" rel=\"stylesheet\" type=\"text/css\"/>
+      <link href=\"http://localhost:8000//modules/crazyelements/assets/css/button.css\" rel=\"stylesheet\" type=\"text/css\"/>
+  
+  <script type=\"text/javascript\">
+var baseAdminDir = \"\\\\/admin946nmqvd7\\\\/\";
+var baseDir = \"\\\\/\";
+var changeFormLanguageUrl = \"\\\\/admin946nmqvd7\\\\/index.php\\\\/configure\\\\/advanced\\\\/employees\\\\/change-form-language?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\";
+var currency = {\"iso_code\":\"EUR\",\"sign\":\"\\\\u20ac\",\"name\":\"Euro\",\"format\":null};
+var currency_specifications = {\"symbol\":[\".\",\",\",\";\",\"%\",\"-\",\"+\",\"E\",\"\\\\u00d7\",\"\\\\u2030\",\"\\\\u221e\",\"NaN\"],\"currencyCode\":\"EUR\",\"currencySymbol\":\"\\\\u20ac\",\"numberSymbols\":[\".\",\",\",\";\",\"' | raw }}{{ '%\",\"-\",\"+\",\"E\",\"\\\\u00d7\",\"\\\\u2030\",\"\\\\u221e\",\"NaN\"],\"positivePattern\":\"\\\\u00a4#,##0.00\",\"negativePattern\":\"-\\\\u00a4#,##0.00\",\"maxFractionDigits\":2,\"minFractionDigits\":2,\"groupingUsed\":true,\"primaryGroupSize\":3,\"secondaryGroupSize\":3};
+var host_mode = false;
+var number_specifications = {\"symbol\":[\".\",\",\",\";\",\"%\",\"-\",\"+\",\"E\",\"\\\\u00d7\",\"\\\\u2030\",\"\\\\u221e\",\"NaN\"],\"numberSymbols\":[\".\",\",\",\";\",\"%\",\"-\",\"+\",\"E\",\"\\\\u00d7\",\"\\\\u2030\",\"\\\\u221e\",\"NaN\"],\"positivePattern\":\"#,##0.###\",\"negativePattern\":\"-#,##0.###\",\"maxFractionDigits\":3,\"minFractionDigits\":0,\"groupingUsed\":true,\"primaryGroupSize\":3,\"secondaryGroupSize\":3};
+var prestashop = {\"debug\":true};
+var show_new_customers = \"1\";
+var show_new_messages = \"1\";
+var show_new_orders = \"1\";
+</script>
+<script type=\"text/javascript\" src=\"/admin946nmqvd7/themes/new-theme/public/main.bundle.js\"></script>
+<script type=\"text/javascript\" src=\"/js/jquery/plugins/jquery.chosen.js\"></script>
+<script type=\"text/javascript\" src=\"/js/jquery/plugins/fancybox/jquery.fancybox.js\"></script>
+<script type=\"text/javascript\" src=\"/js/admin.js?v=1.7.8.6\"></script>
+<script type=\"text/javascript\" src=\"/admin946nmqvd7/themes/new-theme/public/cldr.bundle.js\"></script>
+<script type=\"text/javascript\" src=\"/js/tools.js?v=1.7.8.6\"></script>
+<script type=\"text/javascript\" src=\"/modules/blockwishlist/public/vendors.js\"></script>
+<script type=\"text/javascript\" src=\"/js/vendor/d3.v3.min.js\"></script>
+<script type=\"text/javascript\" src=\"/admin946nmqvd7/themes/default/js/vendor/nv.d3.min.js\"></script>
+<script type=\"text/javascript\" src=\"/modules/gamification/views/js/gamification_bt.js\"></script>
+<script type=\"text/javascript\" src=\"/modules/ps_mbo/views/js/recommended-modules.js?v=2.0.1\"></script>
+<script type=\"text/javascript\" src=\"/modules/ps_faviconnotificationbo/views/js/favico.js\"></script>
+<script type=\"text/javascript\" src=\"/modules/ps_faviconnotificationbo/views/js/ps_faviconnotificationbo.js\"></script>
+<script type=\"text/javascript\" src=\"http://localhost:8000//modules/c' | raw }}{{ 'razyelements/assets/js/update_crazy.js\"></script>
+
+  <script>
+  if (undefined !== ps_faviconnotificationbo) {
+    ps_faviconnotificationbo.initialize({
+      backgroundColor: \\'#DF0067\\',
+      textColor: \\'#FFFFFF\\',
+      notificationGetUrl: \\'/admin946nmqvd7/index.php/common/notifications?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\\',
+      CHECKBOX_ORDER: 1,
+      CHECKBOX_CUSTOMER: 1,
+      CHECKBOX_MESSAGE: 1,
+      timer: 120000, // Refresh every 2 minutes
+    });
+  }
+</script>
+<script>
+            var admin_gamification_ajax_url = \"http:\\\\/\\\\/localhost:8000\\\\/admin946nmqvd7\\\\/index.php?controller=AdminGamification&token=3605a135b893e433c91cf321417f80aa\";
+            var current_id_tab = 137;
+        </script>
+
+' | raw }}{% block stylesheets %}{% endblock %}{% block extra_stylesheets %}{% endblock %}</head>{{ '
+
+<body
+  class=\"lang-en adminpsmbomodule\"
+  data-base-url=\"/admin946nmqvd7/index.php\"  data-token=\"x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\">
+
+  <header id=\"header\" class=\"d-print-none\">
+
+    <nav id=\"header_infos\" class=\"main-header\">
+      <button class=\"btn btn-primary-reverse onclick btn-lg unbind ajax-spinner\"></button>
+
+            <i class=\"material-icons js-mobile-menu\">menu</i>
+      <a id=\"header_logo\" class=\"logo float-left\" href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminDashboard&amp;token=9c5c2fad8221a5fbdbcaffdba0348a71\"></a>
+      <span id=\"shop_version\">1.7.8.6</span>
+
+      <div class=\"component\" id=\"quick-access-container\">
+        <div class=\"dropdown quick-accesses\">
+  <button class=\"btn btn-link btn-sm dropdown-toggle\" type=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\" id=\"quick_select\">
+    Quick Access
+  </button>
+  <div class=\"dropdown-menu\">
+          <a class=\"dropdown-item quick-row-link\"
+         href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminStats&amp;module=statscheckup&amp;token=268801acda9aeffa88b93c00131b5616\"
+                 data-item=\"Catalog evaluation\"
+      >Catalog evaluation</a>
+          <a class=\"dropdown-item quick-row-link\"
+         href=\"http://localhost:8000/admin946nmqvd7/index.php/improve/modules/manage?token=6c3b783fe76833093b9b466d741e4d64\"
+                 data-item=\"Installed modules\"
+      >Installed modules</a>
+          <a class=\"dropdown-item quick-row-link\"
+         href=\"http://localhost:8000/admin946nmqvd7/index.php/sell/catalog/categories/new?token=6c3b783fe76833093b9b466d741e4d64\"
+                 data-item=\"New category\"
+      >New category</a>
+          <a class=\"dropdown-item quick-row-link\"
+         href=\"http://localhost:8000/admin946nmqvd7/index.php/sell/catalog/products/new?token=6c3b783fe76833093b9b466d741e4d64\"
+                 data-item=\"New product\"
+      >New product</a>
+          <a class=\"dropdown-item quick-row-lin' | raw }}{{ 'k\"
+         href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminCartRules&amp;addcart_rule&amp;token=36f2a9fd26a5b6c5f7892bf287d5feed\"
+                 data-item=\"New voucher\"
+      >New voucher</a>
+          <a class=\"dropdown-item quick-row-link\"
+         href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminOrders&amp;token=4dc045a3223e9fe0b9f4316ac6eb1cd2\"
+                 data-item=\"Orders\"
+      >Orders</a>
+        <div class=\"dropdown-divider\"></div>
+          <a id=\"quick-add-link\"
+        class=\"dropdown-item js-quick-link\"
+        href=\"#\"
+        data-rand=\"137\"
+        data-icon=\"icon-AdminParentModulesCatalog\"
+        data-method=\"add\"
+        data-url=\"index.php/modules/addons/modules/catalog?-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\"
+        data-post-link=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminQuickAccesses&token=70158036479ffe8027139a938edb757e\"
+        data-prompt-text=\"Please name this shortcut:\"
+        data-link=\"Module Catalog - List\"
+      >
+        <i class=\"material-icons\">add_circle</i>
+        Add current page to Quick Access
+      </a>
+        <a id=\"quick-manage-link\" class=\"dropdown-item\" href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminQuickAccesses&token=70158036479ffe8027139a938edb757e\">
+      <i class=\"material-icons\">settings</i>
+      Manage your quick accesses
+    </a>
+  </div>
+</div>
+      </div>
+      <div class=\"component\" id=\"header-search-container\">
+        <form id=\"header_search\"
+      class=\"bo_search_form dropdown-form js-dropdown-form collapsed\"
+      method=\"post\"
+      action=\"/admin946nmqvd7/index.php?controller=AdminSearch&amp;token=12ece5ea4051dc508954b1277ce42645\"
+      role=\"search\">
+  <input type=\"hidden\" name=\"bo_search_type\" id=\"bo_search_type\" class=\"js-search-type\" />
+    <div class=\"input-group\">
+    <input type=\"text\" class=\"form-control js-form-search\" id=\"bo_query\" name=\"bo_query\" value=\"\" placeholder=\"Search (e.g.: product refere' | raw }}{{ 'nce, customer name…)\" aria-label=\"Searchbar\">
+    <div class=\"input-group-append\">
+      <button type=\"button\" class=\"btn btn-outline-secondary dropdown-toggle js-dropdown-toggle\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">
+        Everywhere
+      </button>
+      <div class=\"dropdown-menu js-items-list\">
+        <a class=\"dropdown-item\" data-item=\"Everywhere\" href=\"#\" data-value=\"0\" data-placeholder=\"What are you looking for?\" data-icon=\"icon-search\"><i class=\"material-icons\">search</i> Everywhere</a>
+        <div class=\"dropdown-divider\"></div>
+        <a class=\"dropdown-item\" data-item=\"Catalog\" href=\"#\" data-value=\"1\" data-placeholder=\"Product name, reference, etc.\" data-icon=\"icon-book\"><i class=\"material-icons\">store_mall_directory</i> Catalog</a>
+        <a class=\"dropdown-item\" data-item=\"Customers by name\" href=\"#\" data-value=\"2\" data-placeholder=\"Name\" data-icon=\"icon-group\"><i class=\"material-icons\">group</i> Customers by name</a>
+        <a class=\"dropdown-item\" data-item=\"Customers by ip address\" href=\"#\" data-value=\"6\" data-placeholder=\"123.45.67.89\" data-icon=\"icon-desktop\"><i class=\"material-icons\">desktop_mac</i> Customers by IP address</a>
+        <a class=\"dropdown-item\" data-item=\"Orders\" href=\"#\" data-value=\"3\" data-placeholder=\"Order ID\" data-icon=\"icon-credit-card\"><i class=\"material-icons\">shopping_basket</i> Orders</a>
+        <a class=\"dropdown-item\" data-item=\"Invoices\" href=\"#\" data-value=\"4\" data-placeholder=\"Invoice number\" data-icon=\"icon-book\"><i class=\"material-icons\">book</i> Invoices</a>
+        <a class=\"dropdown-item\" data-item=\"Carts\" href=\"#\" data-value=\"5\" data-placeholder=\"Cart ID\" data-icon=\"icon-shopping-cart\"><i class=\"material-icons\">shopping_cart</i> Carts</a>
+        <a class=\"dropdown-item\" data-item=\"Modules\" href=\"#\" data-value=\"7\" data-placeholder=\"Module name\" data-icon=\"icon-puzzle-piece\"><i class=\"material-icons\">extension</i> Modules</a>
+      </div>
+      <button class=\"btn btn-primary\"' | raw }}{{ ' type=\"submit\"><span class=\"d-none\">SEARCH</span><i class=\"material-icons\">search</i></button>
+    </div>
+  </div>
+</form>
+
+<script type=\"text/javascript\">
+ \$(document).ready(function(){
+    \$(\\'#bo_query\\').one(\\'click\\', function() {
+    \$(this).closest(\\'form\\').removeClass(\\'collapsed\\');
+  });
+});
+</script>
+      </div>
+
+              <div class=\"component hide-mobile-sm\" id=\"header-debug-mode-container\">
+          <a class=\"link shop-state\"
+             id=\"debug-mode\"
+             data-toggle=\"pstooltip\"
+             data-placement=\"bottom\"
+             data-html=\"true\"
+             title=\"<p class=\\'text-left\\'><strong>Your shop is in debug mode.</strong></p><p class=\\'text-left\\'>All the PHP errors and messages are displayed. When you no longer need it, <strong>turn off</strong> this mode.</p>\"
+             href=\"/admin946nmqvd7/index.php/configure/advanced/performance/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\"
+          >
+            <i class=\"material-icons\">bug_report</i>
+            <span>Debug mode</span>
+          </a>
+        </div>
+      
+      
+              <div class=\"component\" id=\"header-shop-list-container\">
+            <div class=\"shop-list\">
+    <a class=\"link\" id=\"header_shopname\" href=\"http://localhost:8000/\" target= \"_blank\">
+      <i class=\"material-icons\">visibility</i>
+      <span>View my shop</span>
+    </a>
+  </div>
+        </div>
+                    <div class=\"component header-right-component\" id=\"header-notifications-container\">
+          <div id=\"notif\" class=\"notification-center dropdown dropdown-clickable\">
+  <button class=\"btn notification js-notification dropdown-toggle\" data-toggle=\"dropdown\">
+    <i class=\"material-icons\">notifications_none</i>
+    <span id=\"notifications-total\" class=\"count hide\">0</span>
+  </button>
+  <div class=\"dropdown-menu dropdown-menu-right js-notifs_dropdown\">
+    <div class=\"notifications\">
+      <ul class=\"nav nav-tabs\" role=\"tablist\">
+                          <li class=\"nav-item\">
+            <a
+' | raw }}{{ '              class=\"nav-link active\"
+              id=\"orders-tab\"
+              data-toggle=\"tab\"
+              data-type=\"order\"
+              href=\"#orders-notifications\"
+              role=\"tab\"
+            >
+              Orders<span id=\"_nb_new_orders_\"></span>
+            </a>
+          </li>
+                                    <li class=\"nav-item\">
+            <a
+              class=\"nav-link \"
+              id=\"customers-tab\"
+              data-toggle=\"tab\"
+              data-type=\"customer\"
+              href=\"#customers-notifications\"
+              role=\"tab\"
+            >
+              Customers<span id=\"_nb_new_customers_\"></span>
+            </a>
+          </li>
+                                    <li class=\"nav-item\">
+            <a
+              class=\"nav-link \"
+              id=\"messages-tab\"
+              data-toggle=\"tab\"
+              data-type=\"customer_message\"
+              href=\"#messages-notifications\"
+              role=\"tab\"
+            >
+              Messages<span id=\"_nb_new_messages_\"></span>
+            </a>
+          </li>
+                        </ul>
+
+      <!-- Tab panes -->
+      <div class=\"tab-content\">
+                          <div class=\"tab-pane active empty\" id=\"orders-notifications\" role=\"tabpanel\">
+            <p class=\"no-notification\">
+              No new order for now :(<br>
+              Have you checked your <strong><a href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminCarts&action=filterOnlyAbandonedCarts&token=8274bd100153d121d4155dd27bc7f114\">abandoned carts</a></strong>?<br>Your next order could be hiding there!
+            </p>
+            <div class=\"notification-elements\"></div>
+          </div>
+                                    <div class=\"tab-pane  empty\" id=\"customers-notifications\" role=\"tabpanel\">
+            <p class=\"no-notification\">
+              No new customer for now :(<br>
+              Are you active on social media these days?
+            </p>
+            <div class=\"noti' | raw }}{{ 'fication-elements\"></div>
+          </div>
+                                    <div class=\"tab-pane  empty\" id=\"messages-notifications\" role=\"tabpanel\">
+            <p class=\"no-notification\">
+              No new message for now.<br>
+              Seems like all your customers are happy :)
+            </p>
+            <div class=\"notification-elements\"></div>
+          </div>
+                        </div>
+    </div>
+  </div>
+</div>
+
+  <script type=\"text/html\" id=\"order-notification-template\">
+    <a class=\"notif\" href=\\'order_url\\'>
+      #_id_order_ -
+      from <strong>_customer_name_</strong> (_iso_code_)_carrier_
+      <strong class=\"float-sm-right\">_total_paid_</strong>
+    </a>
+  </script>
+
+  <script type=\"text/html\" id=\"customer-notification-template\">
+    <a class=\"notif\" href=\\'customer_url\\'>
+      #_id_customer_ - <strong>_customer_name_</strong>_company_ - registered <strong>_date_add_</strong>
+    </a>
+  </script>
+
+  <script type=\"text/html\" id=\"message-notification-template\">
+    <a class=\"notif\" href=\\'message_url\\'>
+    <span class=\"message-notification-status _status_\">
+      <i class=\"material-icons\">fiber_manual_record</i> _status_
+    </span>
+      - <strong>_customer_name_</strong> (_company_) - <i class=\"material-icons\">access_time</i> _date_add_
+    </a>
+  </script>
+        </div>
+      
+      <div class=\"component\" id=\"header-employee-container\">
+        <div class=\"dropdown employee-dropdown\">
+  <div class=\"rounded-circle person\" data-toggle=\"dropdown\">
+    <i class=\"material-icons\">account_circle</i>
+  </div>
+  <div class=\"dropdown-menu dropdown-menu-right\">
+    <div class=\"employee-wrapper-avatar\">
+
+      <span class=\"employee-avatar\"><img class=\"avatar rounded-circle\" src=\"http://localhost:8000/img/pr/default.jpg\" /></span>
+      <span class=\"employee_profile\">Welcome back Jeyson Ulises</span>
+      <a class=\"dropdown-item employee-link profile-link\" href=\"/admin946nmqvd7/index.php/configure/advanced/employees/1/edit?_token=x5HrQ-1GuTmpJORqN_' | raw }}{{ '8TxOOuQ1LkpGXowEjaIvq7XTI\">
+      <i class=\"material-icons\">edit</i>
+      <span>Your profile</span>
+    </a>
+    </div>
+
+    <p class=\"divider\"></p>
+    <a class=\"dropdown-item\" href=\"https://www.prestashop.com/en/resources/documentations?utm_source=back-office&amp;utm_medium=profile&amp;utm_campaign=resources-en&amp;utm_content=download17\" target=\"_blank\" rel=\"noreferrer\"><i class=\"material-icons\">book</i> Resources</a>
+    <a class=\"dropdown-item\" href=\"https://www.prestashop.com/en/training?utm_source=back-office&amp;utm_medium=profile&amp;utm_campaign=training-en&amp;utm_content=download17\" target=\"_blank\" rel=\"noreferrer\"><i class=\"material-icons\">school</i> Training</a>
+    <a class=\"dropdown-item\" href=\"https://www.prestashop.com/en/experts?utm_source=back-office&amp;utm_medium=profile&amp;utm_campaign=expert-en&amp;utm_content=download17\" target=\"_blank\" rel=\"noreferrer\"><i class=\"material-icons\">person_pin_circle</i> Find an Expert</a>
+    <a class=\"dropdown-item\" href=\"https://addons.prestashop.com?utm_source=back-office&amp;utm_medium=profile&amp;utm_campaign=addons-en&amp;utm_content=download17\" target=\"_blank\" rel=\"noreferrer\"><i class=\"material-icons\">extension</i> PrestaShop Marketplace</a>
+    <a class=\"dropdown-item\" href=\"https://www.prestashop.com/en/contact?utm_source=back-office&amp;utm_medium=profile&amp;utm_campaign=help-center-en&amp;utm_content=download17\" target=\"_blank\" rel=\"noreferrer\"><i class=\"material-icons\">help</i> Help Center</a>
+    <p class=\"divider\"></p>
+    <a class=\"dropdown-item employee-link text-center\" id=\"header_logout\" href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminLogin&amp;logout=1&amp;token=d121ed026ccce438f4fe01641eb7159f\">
+      <i class=\"material-icons d-lg-none\">power_settings_new</i>
+      <span>Sign out</span>
+    </a>
+  </div>
+</div>
+      </div>
+          </nav>
+  </header>
+
+  <nav class=\"nav-bar d-none d-print-none d-md-block\">
+  <span class=\"menu-collapse\" data-toggle-url=\"/admin946nmqv' | raw }}{{ 'd7/index.php/configure/advanced/employees/toggle-navigation?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\">
+    <i class=\"material-icons\">chevron_left</i>
+    <i class=\"material-icons\">chevron_left</i>
+  </span>
+
+  <div class=\"nav-bar-overflow\">
+      <ul class=\"main-menu\">
+              
+                    
+                    
+          
+            <li class=\"link-levelone\" data-submenu=\"1\" id=\"tab-AdminDashboard\">
+              <a href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminDashboard&amp;token=9c5c2fad8221a5fbdbcaffdba0348a71\" class=\"link\" >
+                <i class=\"material-icons\">trending_up</i> <span>Dashboard</span>
+              </a>
+            </li>
+
+          
+                      
+                                          
+                    
+          
+            <li class=\"category-title\" data-submenu=\"2\" id=\"tab-SELL\">
+                <span class=\"title\">Sell</span>
+            </li>
+
+                              
+                  
+                                                      
+                  
+                  <li class=\"link-levelone has_submenu\" data-submenu=\"3\" id=\"subtab-AdminParentOrders\">
+                    <a href=\"/admin946nmqvd7/index.php/sell/orders/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\">
+                      <i class=\"material-icons mi-shopping_basket\">shopping_basket</i>
+                      <span>
+                      Orders
+                      </span>
+                                                    <i class=\"material-icons sub-tabs-arrow\">
+                                                                    keyboard_arrow_down
+                                                            </i>
+                                            </a>
+                                              <ul id=\"collapse-3\" class=\"submenu panel-collapse\">
+                                                      
+                              
+                                  ' | raw }}{{ '                          
+                              <li class=\"link-leveltwo\" data-submenu=\"4\" id=\"subtab-AdminOrders\">
+                                <a href=\"/admin946nmqvd7/index.php/sell/orders/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Orders
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"5\" id=\"subtab-AdminInvoices\">
+                                <a href=\"/admin946nmqvd7/index.php/sell/orders/invoices/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Invoices
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"6\" id=\"subtab-AdminSlip\">
+                                <a href=\"/admin946nmqvd7/index.php/sell/orders/credit-slips/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Credit Slips
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"7\" id=\"subtab-AdminDeliverySlip\">
+                                <a href=\"/admin946nmqvd7/index.php/sell/orders/delivery-slips/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Delivery Slips
+                                </a>
+                              </li>
+
+                                                                                  
+      ' | raw }}{{ '                        
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"8\" id=\"subtab-AdminCarts\">
+                                <a href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminCarts&amp;token=8274bd100153d121d4155dd27bc7f114\" class=\"link\"> Shopping Carts
+                                </a>
+                              </li>
+
+                                                                              </ul>
+                                        </li>
+                                              
+                  
+                                                      
+                  
+                  <li class=\"link-levelone has_submenu\" data-submenu=\"9\" id=\"subtab-AdminCatalog\">
+                    <a href=\"/admin946nmqvd7/index.php/sell/catalog/products?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\">
+                      <i class=\"material-icons mi-store\">store</i>
+                      <span>
+                      Catalog
+                      </span>
+                                                    <i class=\"material-icons sub-tabs-arrow\">
+                                                                    keyboard_arrow_down
+                                                            </i>
+                                            </a>
+                                              <ul id=\"collapse-9\" class=\"submenu panel-collapse\">
+                                                      
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"10\" id=\"subtab-AdminProducts\">
+                                <a href=\"/admin946nmqvd7/index.php/sell/catalog/products?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Products
+                                </a>
+                              </li>
+
+            ' | raw }}{{ '                                                                      
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"11\" id=\"subtab-AdminCategories\">
+                                <a href=\"/admin946nmqvd7/index.php/sell/catalog/categories?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Categories
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"12\" id=\"subtab-AdminTracking\">
+                                <a href=\"/admin946nmqvd7/index.php/sell/catalog/monitoring/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Monitoring
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"13\" id=\"subtab-AdminParentAttributesGroups\">
+                                <a href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminAttributesGroups&amp;token=a140275ac523e895863e274bd8fba6bf\" class=\"link\"> Attributes &amp; Features
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"16\" id=\"subtab-AdminParentManufacturers\">
+                                <a href=\"/admin946nmqvd7/index.php/sell/catalog/brands/?_token=x5HrQ-1GuTmpJORqN_8TxO' | raw }}{{ 'OuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Brands &amp; Suppliers
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"19\" id=\"subtab-AdminAttachments\">
+                                <a href=\"/admin946nmqvd7/index.php/sell/attachments/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Files
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"20\" id=\"subtab-AdminParentCartRules\">
+                                <a href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminCartRules&amp;token=36f2a9fd26a5b6c5f7892bf287d5feed\" class=\"link\"> Discounts
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"23\" id=\"subtab-AdminStockManagement\">
+                                <a href=\"/admin946nmqvd7/index.php/sell/stocks/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Stock
+                                </a>
+                              </li>
+
+                                                                              </ul>
+                                        </li>
+                                              
+                  
+                                                      
+                  
+                  <li class=\"link-leve' | raw }}{{ 'lone has_submenu\" data-submenu=\"24\" id=\"subtab-AdminParentCustomer\">
+                    <a href=\"/admin946nmqvd7/index.php/sell/customers/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\">
+                      <i class=\"material-icons mi-account_circle\">account_circle</i>
+                      <span>
+                      Customers
+                      </span>
+                                                    <i class=\"material-icons sub-tabs-arrow\">
+                                                                    keyboard_arrow_down
+                                                            </i>
+                                            </a>
+                                              <ul id=\"collapse-24\" class=\"submenu panel-collapse\">
+                                                      
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"25\" id=\"subtab-AdminCustomers\">
+                                <a href=\"/admin946nmqvd7/index.php/sell/customers/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Customers
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"26\" id=\"subtab-AdminAddresses\">
+                                <a href=\"/admin946nmqvd7/index.php/sell/addresses/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Addresses
+                                </a>
+                              </li>
+
+                                                                                                                                    </ul>
+                                        </li>
+                                              
+' | raw }}{{ '                  
+                                                      
+                  
+                  <li class=\"link-levelone has_submenu\" data-submenu=\"28\" id=\"subtab-AdminParentCustomerThreads\">
+                    <a href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminCustomerThreads&amp;token=f50ca760cb4b4611889f34769bb0dee2\" class=\"link\">
+                      <i class=\"material-icons mi-chat\">chat</i>
+                      <span>
+                      Customer Service
+                      </span>
+                                                    <i class=\"material-icons sub-tabs-arrow\">
+                                                                    keyboard_arrow_down
+                                                            </i>
+                                            </a>
+                                              <ul id=\"collapse-28\" class=\"submenu panel-collapse\">
+                                                      
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"29\" id=\"subtab-AdminCustomerThreads\">
+                                <a href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminCustomerThreads&amp;token=f50ca760cb4b4611889f34769bb0dee2\" class=\"link\"> Customer Service
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"30\" id=\"subtab-AdminOrderMessage\">
+                                <a href=\"/admin946nmqvd7/index.php/sell/customer-service/order-messages/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Order Messages
+                                </a>
+                              </li>
+
+     ' | raw }}{{ '                                                                             
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"31\" id=\"subtab-AdminReturn\">
+                                <a href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminReturn&amp;token=5d1a4f589b864c8fd3d05147f84f4e9c\" class=\"link\"> Merchandise Returns
+                                </a>
+                              </li>
+
+                                                                              </ul>
+                                        </li>
+                                              
+                  
+                                                      
+                  
+                  <li class=\"link-levelone has_submenu\" data-submenu=\"32\" id=\"subtab-AdminStats\">
+                    <a href=\"/admin946nmqvd7/index.php/modules/metrics/legacy/stats?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\">
+                      <i class=\"material-icons mi-assessment\">assessment</i>
+                      <span>
+                      Stats
+                      </span>
+                                                    <i class=\"material-icons sub-tabs-arrow\">
+                                                                    keyboard_arrow_down
+                                                            </i>
+                                            </a>
+                                              <ul id=\"collapse-32\" class=\"submenu panel-collapse\">
+                                                      
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"142\" id=\"subtab-AdminMetricsLegacyStatsController\">
+                                <a href=\"/admin946nmqvd7/index.php/modules/metrics/legacy/stats?_token=x5HrQ-1GuTmpJORqN_8' | raw }}{{ 'TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Stats
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"143\" id=\"subtab-AdminMetricsController\">
+                                <a href=\"/admin946nmqvd7/index.php/modules/metrics?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> PrestaShop Metrics
+                                </a>
+                              </li>
+
+                                                                              </ul>
+                                        </li>
+                              
+          
+                      
+                                          
+                    
+          
+            <li class=\"category-title link-active\" data-submenu=\"42\" id=\"tab-IMPROVE\">
+                <span class=\"title\">Improve</span>
+            </li>
+
+                              
+                  
+                                                      
+                                                          
+                  <li class=\"link-levelone has_submenu link-active open ul-open\" data-submenu=\"43\" id=\"subtab-AdminParentModulesSf\">
+                    <a href=\"/admin946nmqvd7/index.php/improve/modules/manage?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\">
+                      <i class=\"material-icons mi-extension\">extension</i>
+                      <span>
+                      Modules
+                      </span>
+                                                    <i class=\"material-icons sub-tabs-arrow\">
+                                                                    keyboard_arrow_up
+                                                            </i>
+                                            </a>
+                          ' | raw }}{{ '                    <ul id=\"collapse-43\" class=\"submenu panel-collapse\">
+                                                      
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"44\" id=\"subtab-AdminModulesSf\">
+                                <a href=\"/admin946nmqvd7/index.php/improve/modules/manage?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Module Manager
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo link-active\" data-submenu=\"48\" id=\"subtab-AdminParentModulesCatalog\">
+                                <a href=\"/admin946nmqvd7/index.php/modules/addons/modules/catalog?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Module Catalog
+                                </a>
+                              </li>
+
+                                                                                                                                                                                          </ul>
+                                        </li>
+                                              
+                  
+                                                      
+                  
+                  <li class=\"link-levelone has_submenu\" data-submenu=\"52\" id=\"subtab-AdminParentThemes\">
+                    <a href=\"/admin946nmqvd7/index.php/improve/design/themes/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\">
+                      <i class=\"material-icons mi-desktop_mac\">desktop_mac</i>
+                      <span>
+                      Design
+                      </span>
+                                                    <i class=\"material-icons sub-tabs-' | raw }}{{ 'arrow\">
+                                                                    keyboard_arrow_down
+                                                            </i>
+                                            </a>
+                                              <ul id=\"collapse-52\" class=\"submenu panel-collapse\">
+                                                      
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"130\" id=\"subtab-AdminThemesParent\">
+                                <a href=\"/admin946nmqvd7/index.php/improve/design/themes/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Theme &amp; Logo
+                                </a>
+                              </li>
+
+                                                                                                                                        
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"140\" id=\"subtab-AdminPsMboTheme\">
+                                <a href=\"/admin946nmqvd7/index.php/modules/addons/themes/catalog?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Theme Catalog
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"55\" id=\"subtab-AdminParentMailTheme\">
+                                <a href=\"/admin946nmqvd7/index.php/improve/design/mail_theme/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Email Theme
+                                </a>
+                              </li>
+
+                                                                              ' | raw }}{{ '    
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"57\" id=\"subtab-AdminCmsContent\">
+                                <a href=\"/admin946nmqvd7/index.php/improve/design/cms-pages/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Pages
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"58\" id=\"subtab-AdminModulesPositions\">
+                                <a href=\"/admin946nmqvd7/index.php/improve/design/modules/positions/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Positions
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"59\" id=\"subtab-AdminImages\">
+                                <a href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminImages&amp;token=4d20ad7c1af4124c91a43c9b9f31f609\" class=\"link\"> Image Settings
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"129\" id=\"subtab-AdminLinkWidget\">
+                                <a href=\"/admin946nmqvd7/index.php/modules/link-widget/list?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Link List
+                                </a>
+          ' | raw }}{{ '                    </li>
+
+                                                                              </ul>
+                                        </li>
+                                              
+                  
+                                                      
+                  
+                  <li class=\"link-levelone has_submenu\" data-submenu=\"60\" id=\"subtab-AdminParentShipping\">
+                    <a href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminCarriers&amp;token=a31c710e807978f67b57ade477da6beb\" class=\"link\">
+                      <i class=\"material-icons mi-local_shipping\">local_shipping</i>
+                      <span>
+                      Shipping
+                      </span>
+                                                    <i class=\"material-icons sub-tabs-arrow\">
+                                                                    keyboard_arrow_down
+                                                            </i>
+                                            </a>
+                                              <ul id=\"collapse-60\" class=\"submenu panel-collapse\">
+                                                      
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"61\" id=\"subtab-AdminCarriers\">
+                                <a href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminCarriers&amp;token=a31c710e807978f67b57ade477da6beb\" class=\"link\"> Carriers
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"62\" id=\"subtab-AdminShipping\">
+                                <a href=\"/admin946nmqvd7/index.php/improve/shipping/prefe' | raw }}{{ 'rences/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Preferences
+                                </a>
+                              </li>
+
+                                                                              </ul>
+                                        </li>
+                                              
+                  
+                                                      
+                  
+                  <li class=\"link-levelone has_submenu\" data-submenu=\"63\" id=\"subtab-AdminParentPayment\">
+                    <a href=\"/admin946nmqvd7/index.php/improve/payment/payment_methods?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\">
+                      <i class=\"material-icons mi-payment\">payment</i>
+                      <span>
+                      Payment
+                      </span>
+                                                    <i class=\"material-icons sub-tabs-arrow\">
+                                                                    keyboard_arrow_down
+                                                            </i>
+                                            </a>
+                                              <ul id=\"collapse-63\" class=\"submenu panel-collapse\">
+                                                      
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"64\" id=\"subtab-AdminPayment\">
+                                <a href=\"/admin946nmqvd7/index.php/improve/payment/payment_methods?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Payment Methods
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"65\" id=\"s' | raw }}{{ 'ubtab-AdminPaymentPreferences\">
+                                <a href=\"/admin946nmqvd7/index.php/improve/payment/preferences?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Preferences
+                                </a>
+                              </li>
+
+                                                                              </ul>
+                                        </li>
+                                              
+                  
+                                                      
+                  
+                  <li class=\"link-levelone has_submenu\" data-submenu=\"66\" id=\"subtab-AdminInternational\">
+                    <a href=\"/admin946nmqvd7/index.php/improve/international/localization/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\">
+                      <i class=\"material-icons mi-language\">language</i>
+                      <span>
+                      International
+                      </span>
+                                                    <i class=\"material-icons sub-tabs-arrow\">
+                                                                    keyboard_arrow_down
+                                                            </i>
+                                            </a>
+                                              <ul id=\"collapse-66\" class=\"submenu panel-collapse\">
+                                                      
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"67\" id=\"subtab-AdminParentLocalization\">
+                                <a href=\"/admin946nmqvd7/index.php/improve/international/localization/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Localization
+                                </a>
+                              </li>
+
+                                                                                  
+                            ' | raw }}{{ '  
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"72\" id=\"subtab-AdminParentCountries\">
+                                <a href=\"/admin946nmqvd7/index.php/improve/international/zones/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Locations
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"76\" id=\"subtab-AdminParentTaxes\">
+                                <a href=\"/admin946nmqvd7/index.php/improve/international/taxes/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Taxes
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"79\" id=\"subtab-AdminTranslations\">
+                                <a href=\"/admin946nmqvd7/index.php/improve/international/translations/settings?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Translations
+                                </a>
+                              </li>
+
+                                                                              </ul>
+                                        </li>
+                                              
+                  
+                                                      
+                  
+                  <li class=\"link-levelone has_submenu\" data-submenu=\"144\" id=\"subtab-Marketing\">
+                    <a href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminPsfacebookModule&amp;token=bd8eb9e196443f1c3d95ac6b5a7c91' | raw }}{{ 'c2\" class=\"link\">
+                      <i class=\"material-icons mi-campaign\">campaign</i>
+                      <span>
+                      Marketing
+                      </span>
+                                                    <i class=\"material-icons sub-tabs-arrow\">
+                                                                    keyboard_arrow_down
+                                                            </i>
+                                            </a>
+                                              <ul id=\"collapse-144\" class=\"submenu panel-collapse\">
+                                                      
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"145\" id=\"subtab-AdminPsfacebookModule\">
+                                <a href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminPsfacebookModule&amp;token=bd8eb9e196443f1c3d95ac6b5a7c91c2\" class=\"link\"> Facebook
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"147\" id=\"subtab-AdminPsxMktgWithGoogleModule\">
+                                <a href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminPsxMktgWithGoogleModule&amp;token=b607342a69e1ba15b1c17bba353844d4\" class=\"link\"> Google
+                                </a>
+                              </li>
+
+                                                                              </ul>
+                                        </li>
+                                              
+                  
+                                                      
+                  
+                  <li class=\"link-levelone has_submenu\" data-submenu=\"158\"' | raw }}{{ ' id=\"subtab-PrintfulHome\">
+                    <a href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=PrintfulDashboard&amp;token=f5172c9b389d389088c26f62c3a67901\" class=\"link\">
+                      <i class=\"material-icons mi-\"></i>
+                      <span>
+                      Printful
+                      </span>
+                                                    <i class=\"material-icons sub-tabs-arrow\">
+                                                                    keyboard_arrow_down
+                                                            </i>
+                                            </a>
+                                              <ul id=\"collapse-158\" class=\"submenu panel-collapse\">
+                                                      
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"159\" id=\"subtab-PrintfulDashboard\">
+                                <a href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=PrintfulDashboard&amp;token=f5172c9b389d389088c26f62c3a67901\" class=\"link\"> Dashboard
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"160\" id=\"subtab-PrintfulOrders\">
+                                <a href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=PrintfulOrders&amp;token=c1b416fdf38febbded1efd09bf1aca6e\" class=\"link\"> Orders
+                                </a>
+                              </li>
+
+                                                                              </ul>
+                                        </li>
+                              
+          
+                      
+                             ' | raw }}{{ '             
+                    
+          
+            <li class=\"category-title\" data-submenu=\"80\" id=\"tab-CONFIGURE\">
+                <span class=\"title\">Configure</span>
+            </li>
+
+                              
+                  
+                                                      
+                  
+                  <li class=\"link-levelone has_submenu\" data-submenu=\"81\" id=\"subtab-ShopParameters\">
+                    <a href=\"/admin946nmqvd7/index.php/configure/shop/preferences/preferences?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\">
+                      <i class=\"material-icons mi-settings\">settings</i>
+                      <span>
+                      Shop Parameters
+                      </span>
+                                                    <i class=\"material-icons sub-tabs-arrow\">
+                                                                    keyboard_arrow_down
+                                                            </i>
+                                            </a>
+                                              <ul id=\"collapse-81\" class=\"submenu panel-collapse\">
+                                                      
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"82\" id=\"subtab-AdminParentPreferences\">
+                                <a href=\"/admin946nmqvd7/index.php/configure/shop/preferences/preferences?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> General
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"85\" id=\"subtab-AdminParentOrderPreferences\">
+                                <a href=\"/admin946nmq' | raw }}{{ 'vd7/index.php/configure/shop/order-preferences/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Order Settings
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"88\" id=\"subtab-AdminPPreferences\">
+                                <a href=\"/admin946nmqvd7/index.php/configure/shop/product-preferences/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Product Settings
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"89\" id=\"subtab-AdminParentCustomerPreferences\">
+                                <a href=\"/admin946nmqvd7/index.php/configure/shop/customer-preferences/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Customer Settings
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"93\" id=\"subtab-AdminParentStores\">
+                                <a href=\"/admin946nmqvd7/index.php/configure/shop/contacts/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Contact
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+       ' | raw }}{{ '                       <li class=\"link-leveltwo\" data-submenu=\"96\" id=\"subtab-AdminParentMeta\">
+                                <a href=\"/admin946nmqvd7/index.php/configure/shop/seo-urls/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Traffic &amp; SEO
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"100\" id=\"subtab-AdminParentSearchConf\">
+                                <a href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminSearchConf&amp;token=8db72734a767008ab9c2cac7ef5619ee\" class=\"link\"> Search
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"134\" id=\"subtab-AdminGamification\">
+                                <a href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminGamification&amp;token=3605a135b893e433c91cf321417f80aa\" class=\"link\"> Merchant Expertise
+                                </a>
+                              </li>
+
+                                                                              </ul>
+                                        </li>
+                                              
+                  
+                                                      
+                  
+                  <li class=\"link-levelone has_submenu\" data-submenu=\"103\" id=\"subtab-AdminAdvancedParameters\">
+                    <a href=\"/admin946nmqvd7/index.php/configure/advanced/system-information/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\">
+                      <i' | raw }}{{ ' class=\"material-icons mi-settings_applications\">settings_applications</i>
+                      <span>
+                      Advanced Parameters
+                      </span>
+                                                    <i class=\"material-icons sub-tabs-arrow\">
+                                                                    keyboard_arrow_down
+                                                            </i>
+                                            </a>
+                                              <ul id=\"collapse-103\" class=\"submenu panel-collapse\">
+                                                      
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"104\" id=\"subtab-AdminInformation\">
+                                <a href=\"/admin946nmqvd7/index.php/configure/advanced/system-information/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Information
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"105\" id=\"subtab-AdminPerformance\">
+                                <a href=\"/admin946nmqvd7/index.php/configure/advanced/performance/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Performance
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"106\" id=\"subtab-AdminAdminPreferences\">
+                                <a href=\"/admin946nmqvd7/index.php/configure/advanced/administration/?' | raw }}{{ '_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Administration
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"107\" id=\"subtab-AdminEmails\">
+                                <a href=\"/admin946nmqvd7/index.php/configure/advanced/emails/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> E-mail
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"108\" id=\"subtab-AdminImport\">
+                                <a href=\"/admin946nmqvd7/index.php/configure/advanced/import/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Import
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"109\" id=\"subtab-AdminParentEmployees\">
+                                <a href=\"/admin946nmqvd7/index.php/configure/advanced/employees/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Team
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"113\" id=\"subtab-AdminParentRequestSql\">
+  ' | raw }}{{ '                              <a href=\"/admin946nmqvd7/index.php/configure/advanced/sql-requests/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Database
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"116\" id=\"subtab-AdminLogs\">
+                                <a href=\"/admin946nmqvd7/index.php/configure/advanced/logs/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Logs
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"117\" id=\"subtab-AdminWebservice\">
+                                <a href=\"/admin946nmqvd7/index.php/configure/advanced/webservice-keys/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Webservice
+                                </a>
+                              </li>
+
+                                                                                                                                                                                              
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"120\" id=\"subtab-AdminFeatureFlag\">
+                                <a href=\"/admin946nmqvd7/index.php/configure/advanced/feature-flags/?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" class=\"link\"> Experimental Features
+                                </a>
+                              </li>
+
+                                                           ' | raw }}{{ '                   </ul>
+                                        </li>
+                              
+          
+                      
+                                          
+                    
+          
+            <li class=\"category-title\" data-submenu=\"164\" id=\"tab-AdminCrazyMain\">
+                <span class=\"title\">Crazy Elements</span>
+            </li>
+
+                              
+                  
+                                                      
+                  
+                  <li class=\"link-levelone has_submenu\" data-submenu=\"165\" id=\"subtab-AdminCrazyEditor\">
+                    <a href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminCrazyContent&amp;token=ba23ad71dc950b6a785e4bc65057c1c9\" class=\"link\">
+                      <i class=\"material-icons mi-brush\">brush</i>
+                      <span>
+                      Crazy Editors
+                      </span>
+                                                    <i class=\"material-icons sub-tabs-arrow\">
+                                                                    keyboard_arrow_down
+                                                            </i>
+                                            </a>
+                                              <ul id=\"collapse-165\" class=\"submenu panel-collapse\">
+                                                      
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"173\" id=\"subtab-AdminCrazyContent\">
+                                <a href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminCrazyContent&amp;token=ba23ad71dc950b6a785e4bc65057c1c9\" class=\"link\"> Content Any Where
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                             ' | raw }}{{ '               
+                              <li class=\"link-leveltwo\" data-submenu=\"174\" id=\"subtab-AdminCrazyPages\">
+                                <a href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminCrazyPages&amp;token=ec9ea967ed86644df2cb842438691e3a\" class=\"link\"> Pages (cms)
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"175\" id=\"subtab-AdminCrazyProducts\">
+                                <a href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminCrazyProducts&amp;token=7a0aa1b1e1700d42e543eb23111d0c30\" class=\"link\"> Products Description
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"176\" id=\"subtab-AdminCrazyCategories\">
+                                <a href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminCrazyCategories&amp;token=511d2e779e7acfd8a00e1ef2e2701988\" class=\"link\"> Categories Page (Pro)
+                                </a>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"177\" id=\"subtab-AdminCrazySuppliers\">
+                                <a href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminCrazySuppliers&amp;token=9bc28d8a6a7f2feec09db6ee4b30df57\" class=\"link\"> Suppliers Page
+                                </a' | raw }}{{ '>
+                              </li>
+
+                                                                                  
+                              
+                                                            
+                              <li class=\"link-leveltwo\" data-submenu=\"178\" id=\"subtab-AdminCrazyBrands\">
+                                <a href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminCrazyBrands&amp;token=92a9a8733e9dbe322b65810cf0fe1ea4\" class=\"link\"> Brands Page
+                                </a>
+                              </li>
+
+                                                                              </ul>
+                                        </li>
+                                              
+                  
+                                                      
+                  
+                  <li class=\"link-levelone\" data-submenu=\"166\" id=\"subtab-AdminCrazyFonts\">
+                    <a href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminCrazyFonts&amp;token=4bc20b54f31e991c3aee2530bc9917d7\" class=\"link\">
+                      <i class=\"material-icons mi-extension\">extension</i>
+                      <span>
+                      Font Manager
+                      </span>
+                                                    <i class=\"material-icons sub-tabs-arrow\">
+                                                                    keyboard_arrow_down
+                                                            </i>
+                                            </a>
+                                        </li>
+                                              
+                  
+                                                      
+                  
+                  <li class=\"link-levelone\" data-submenu=\"167\" id=\"subtab-AdminCrazyPseIcon\">
+                    <a href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminCrazyPseIcon&amp;token=29e8a00e459ad82249581763e468dafa\" clas' | raw }}{{ 's=\"link\">
+                      <i class=\"material-icons mi-extension\">extension</i>
+                      <span>
+                      Icon Manager
+                      </span>
+                                                    <i class=\"material-icons sub-tabs-arrow\">
+                                                                    keyboard_arrow_down
+                                                            </i>
+                                            </a>
+                                        </li>
+                                              
+                  
+                                                      
+                  
+                  <li class=\"link-levelone\" data-submenu=\"168\" id=\"subtab-AdminCrazySetting\">
+                    <a href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminCrazySetting&amp;token=bcd2d9ea5951e7aeaa8e4ee97eb7bef2\" class=\"link\">
+                      <i class=\"material-icons mi-settings\">settings</i>
+                      <span>
+                      Settings
+                      </span>
+                                                    <i class=\"material-icons sub-tabs-arrow\">
+                                                                    keyboard_arrow_down
+                                                            </i>
+                                            </a>
+                                        </li>
+                                              
+                  
+                                                      
+                  
+                  <li class=\"link-levelone\" data-submenu=\"169\" id=\"subtab-AdminCrazyExtendedmodules\">
+                    <a href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminCrazyExtendedmodules&amp;token=d5e8fb416b48c5a8ad48432956b25c83\" class=\"link\">
+                      <i class=\"material-icons mi-extension\">extension</i>
+                      <span>
+                      Extend Third Party Modules
+           ' | raw }}{{ '           </span>
+                                                    <i class=\"material-icons sub-tabs-arrow\">
+                                                                    keyboard_arrow_down
+                                                            </i>
+                                            </a>
+                                        </li>
+                              
+          
+                  </ul>
+  </div>
+  
+</nav>
+
+
+<div class=\"header-toolbar d-print-none\">
+    
+  <div class=\"container-fluid\">
+
+    
+      <nav aria-label=\"Breadcrumb\">
+        <ol class=\"breadcrumb\">
+                      <li class=\"breadcrumb-item\">Module Catalog</li>
+          
+                  </ol>
+      </nav>
+    
+
+    <div class=\"title-row\">
+      
+          <h1 class=\"title\">
+            Modules catalog          </h1>
+      
+
+      
+        <div class=\"toolbar-icons\">
+          <div class=\"wrapper\">
+            
+                                                          <a
+                  class=\"btn btn-primary pointer\"                  id=\"page-header-desc-configuration-add_module\"
+                  href=\"#\"                  title=\"Upload a module\"                  data-toggle=\"pstooltip\"
+                  data-placement=\"bottom\"                >
+                  <i class=\"material-icons\">cloud_upload</i>                  Upload a module
+                </a>
+                                                                        <a
+                  class=\"btn btn-primary pointer\"                  id=\"page-header-desc-configuration-addons_connect\"
+                  href=\"#\"                  title=\"Connect to Addons marketplace\"                  data-toggle=\"pstooltip\"
+                  data-placement=\"bottom\"                >
+                  <i class=\"material-icons\">vpn_key</i>                  Connect to Addons marketplace
+                </a>
+                                      
+            
+                              <a class=\"btn btn-outline-seconda' | raw }}{{ 'ry btn-help btn-sidebar\" href=\"#\"
+                   title=\"Help\"
+                   data-toggle=\"sidebar\"
+                   data-target=\"#right-sidebar\"
+                   data-url=\"/admin946nmqvd7/index.php/common/sidebar/https%253A%252F%252Fhelp.prestashop.com%252Fen%252Fdoc%252FAdminModules%253Fversion%253D1.7.8.6%2526country%253Den/Help?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\"
+                   id=\"product_form_open_help\"
+                >
+                  Help
+                </a>
+                                    </div>
+        </div>
+
+      
+    </div>
+  </div>
+
+  
+      <div class=\"page-head-tabs\" id=\"head_tabs\">
+      <ul class=\"nav nav-pills\">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <li class=\"nav-item\">
+                    <a href=\"/admin946nmqvd7/index.php/modules/addons/modules/catalog?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" id=\"subtab-AdminPsMboModule\" class=\"nav-link tab active current\" data-submenu=\"137\">
+                      Module Catalog
+                      <span class=\"notification-container\">
+                        <span class=\"notification-counter\"></span>
+                      </span>
+                    </a>
+                  </li>
+                                                                                              <li class=\"nav-item\">
+ ' | raw }}{{ '                   <a href=\"/admin946nmqvd7/index.php/modules/addons/modules/catalog/selection?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\" id=\"subtab-AdminPsMboAddons\" class=\"nav-link tab \" data-submenu=\"138\">
+                      Module Selections
+                      <span class=\"notification-container\">
+                        <span class=\"notification-counter\"></span>
+                      </span>
+                    </a>
+                  </li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              </ul>
+    </div>
+  
+  <div class=\"btn-floating\">
+    <button class=\"btn btn-primary collapsed\" data-toggle=\"collapse\" data-target=\".btn-floating-c' | raw }}{{ 'ontainer\" aria-expanded=\"false\">
+      <i class=\"material-icons\">add</i>
+    </button>
+    <div class=\"btn-floating-container collapse\">
+      <div class=\"btn-floating-menu\">
+        
+                              <a
+              class=\"btn btn-floating-item  pointer\"              id=\"page-header-desc-floating-configuration-add_module\"
+              href=\"#\"              title=\"Upload a module\"              data-toggle=\"pstooltip\"
+              data-placement=\"bottom\"            >
+              Upload a module
+              <i class=\"material-icons\">cloud_upload</i>            </a>
+                                        <a
+              class=\"btn btn-floating-item  pointer\"              id=\"page-header-desc-floating-configuration-addons_connect\"
+              href=\"#\"              title=\"Connect to Addons marketplace\"              data-toggle=\"pstooltip\"
+              data-placement=\"bottom\"            >
+              Connect to Addons marketplace
+              <i class=\"material-icons\">vpn_key</i>            </a>
+                  
+                              <a class=\"btn btn-floating-item btn-help btn-sidebar\" href=\"#\"
+               title=\"Help\"
+               data-toggle=\"sidebar\"
+               data-target=\"#right-sidebar\"
+               data-url=\"/admin946nmqvd7/index.php/common/sidebar/https%253A%252F%252Fhelp.prestashop.com%252Fen%252Fdoc%252FAdminModules%253Fversion%253D1.7.8.6%2526country%253Den/Help?_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\"
+            >
+              Help
+            </a>
+                        </div>
+    </div>
+  </div>
+  <!-- begin /Users/jeysongonzalez/Documents/GitHub/hurricanes/modules/ps_mbo/views/templates/hook/recommended-modules.tpl -->
+<script>
+  if (undefined !== mbo) {
+    mbo.initialize({
+      translations: {
+        \\'Recommended Modules and Services\\': \\'Recommended Modules and Services\\',
+        \\'Close\\': \\'Close\\',
+      },
+      recommendedModulesUrl: \\'/admin946nmqvd7/index.php/modules/addons/modules/recomme' | raw }}{{ 'nded?tabClassName=AdminPsMboModule&_token=x5HrQ-1GuTmpJORqN_8TxOOuQ1LkpGXowEjaIvq7XTI\\',
+      shouldAttachRecommendedModulesAfterContent: 0,
+      shouldAttachRecommendedModulesButton: 0,
+      shouldUseLegacyTheme: 0,
+    });
+  }
+</script>
+<!-- end /Users/jeysongonzalez/Documents/GitHub/hurricanes/modules/ps_mbo/views/templates/hook/recommended-modules.tpl -->
+</div>
+
+<div id=\"main-div\">
+          
+      <div class=\"content-div  with-tabs\">
+
+        
+
+                                                        
+        <div class=\"row \">
+          <div class=\"col-sm-12\">
+            <div id=\"ajax_confirmation\" class=\"alert alert-success\" style=\"display: none;\"></div>
+
+
+  ' | raw }}{% block content_header %}{% endblock %}{% block content %}{% endblock %}{% block content_footer %}{% endblock %}{% block sidebar_right %}{% endblock %}{{ '
+
+            
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  <div id=\"non-responsive\" class=\"js-non-responsive\">
+  <h1>Oh no!</h1>
+  <p class=\"mt-3\">
+    The mobile version of this page is not available yet.
+  </p>
+  <p class=\"mt-2\">
+    Please use a desktop computer to access this page, until is adapted to mobile.
+  </p>
+  <p class=\"mt-2\">
+    Thank you.
+  </p>
+  <a href=\"http://localhost:8000/admin946nmqvd7/index.php?controller=AdminDashboard&amp;token=9c5c2fad8221a5fbdbcaffdba0348a71\" class=\"btn btn-primary py-1 mt-3\">
+    <i class=\"material-icons\">arrow_back</i>
+    Back
+  </a>
+</div>
+  <div class=\"mobile-layer\"></div>
+
+      <div id=\"footer\" class=\"bootstrap\">
+    
+</div>
+  
+
+      <div class=\"bootstrap\">
+      <div class=\"modal fade\" id=\"modal_addons_connect\" tabindex=\"-1\">
+\t<div class=\"modal-dialog modal-md\">
+\t\t<div class=\"modal-content\">
+\t\t\t\t\t\t<div class=\"modal-header\">
+\t\t\t\t<button type=\"button\" class=\"close\" data-dismiss=\"modal\">&times;</button>
+\t\t\t\t<h4 class=\"modal-title\"><i class=\"icon-puzzle-piece\"></i> <a target=\"_blank\" href=\"https://addons.prestashop.com/?utm_source=back-office&utm_medium=modules&utm_campaign=back-office-EN&utm_content=download\">PrestaShop Addons</a></h4>
+\t\t\t</div>
+\t\t\t
+\t\t\t<div class=\"modal-body\">
+\t\t\t\t\t\t<!--start addons login-->
+\t\t\t<form id=\"addons_login_form\" method=\"post\" >
+\t\t\t\t<div>
+\t\t\t\t\t<a href=\"https://addons.prestashop.com/en/login?email=Jeysongonzalezlopez%40gmail.com&amp;firstname=Jeyson+Ulises&amp;lastname=Gonzalez+Lopez&amp;website=http%3A%2F%2Flocalhost%3A8000%2F&amp;utm_source=back-office&amp;utm_medium=connect-to-addons&amp;utm_campaign=back-office-EN&amp;utm_content=download#createnow\"><img class=\"img-responsive center-block\" src=\"/admin946nmqvd7/themes/default/img/prestashop-addons-logo.png\" alt=\"Logo PrestaShop Addons\"/></a>
+\t\t\t\t\t<h3 class=\"text-center\">Connect your shop to PrestaShop\\'s marketplace in order to automatically import all your Addons purchases.</h3>
+\t\t\t\t\t<hr />
+\t\t\t\t</div>
+\t\t\t\t<div class=\"row\">' | raw }}{{ '
+\t\t\t\t\t<div class=\"col-md-6\">
+\t\t\t\t\t\t<h4>Don\\'t have an account?</h4>
+\t\t\t\t\t\t<p class=\\'text-justify\\'>Discover the Power of PrestaShop Addons! Explore the PrestaShop Official Marketplace and find over 3 500 innovative modules and themes that optimize conversion rates, increase traffic, build customer loyalty and maximize your productivity</p>
+\t\t\t\t\t</div>
+\t\t\t\t\t<div class=\"col-md-6\">
+\t\t\t\t\t\t<h4>Connect to PrestaShop Addons</h4>
+\t\t\t\t\t\t<div class=\"form-group\">
+\t\t\t\t\t\t\t<div class=\"input-group\">
+\t\t\t\t\t\t\t\t<div class=\"input-group-prepend\">
+\t\t\t\t\t\t\t\t\t<span class=\"input-group-text\"><i class=\"icon-user\"></i></span>
+\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t<input id=\"username_addons\" name=\"username_addons\" type=\"text\" value=\"\" autocomplete=\"off\" class=\"form-control ac_input\">
+\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t</div>
+\t\t\t\t\t\t<div class=\"form-group\">
+\t\t\t\t\t\t\t<div class=\"input-group\">
+\t\t\t\t\t\t\t\t<div class=\"input-group-prepend\">
+\t\t\t\t\t\t\t\t\t<span class=\"input-group-text\"><i class=\"icon-key\"></i></span>
+\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t<input id=\"password_addons\" name=\"password_addons\" type=\"password\" value=\"\" autocomplete=\"off\" class=\"form-control ac_input\">
+\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t<a class=\"btn btn-link float-right _blank\" href=\"//addons.prestashop.com/en/forgot-your-password\">I forgot my password</a>
+\t\t\t\t\t\t\t<br>
+\t\t\t\t\t\t</div>
+\t\t\t\t\t</div>
+\t\t\t\t</div>
+
+\t\t\t\t<div class=\"row row-padding-top\">
+\t\t\t\t\t<div class=\"col-md-6\">
+\t\t\t\t\t\t<div class=\"form-group\">
+\t\t\t\t\t\t\t<a class=\"btn btn-default btn-block btn-lg _blank\" href=\"https://addons.prestashop.com/en/login?email=Jeysongonzalezlopez%40gmail.com&amp;firstname=Jeyson+Ulises&amp;lastname=Gonzalez+Lopez&amp;website=http%3A%2F%2Flocalhost%3A8000%2F&amp;utm_source=back-office&amp;utm_medium=connect-to-addons&amp;utm_campaign=back-office-EN&amp;utm_content=download#createnow\">
+\t\t\t\t\t\t\t\tCreate an Account
+\t\t\t\t\t\t\t\t<i class=\"icon-external-link\"></i>
+\t\t\t\t\t\t\t</a>
+\t\t\t\t\t\t</div>
+\t\t\t\t\t</div>
+\t\t\t\t\t<div class=\"col-md-6\">
+\t\t\t\t\t\t<div class=\"form-group\">
+\t\t\t\t\t\t\t<button id=\"addons_login_button\" class=\"btn btn-primary btn-block' | raw }}{{ ' btn-lg\" type=\"submit\">
+\t\t\t\t\t\t\t\t<i class=\"icon-unlock\"></i> Sign in
+\t\t\t\t\t\t\t</button>
+\t\t\t\t\t\t</div>
+\t\t\t\t\t</div>
+\t\t\t\t</div>
+
+\t\t\t\t<div id=\"addons_loading\" class=\"help-block\"></div>
+
+\t\t\t</form>
+\t\t\t<!--end addons login-->
+\t\t\t</div>
+
+
+\t\t\t\t\t</div>
+\t</div>
+</div>
+
+    </div>
+  
+' | raw }}{% block javascripts %}{% endblock %}{% block extra_javascripts %}{% endblock %}{% block translate_javascripts %}{% endblock %}</body>{{ '
+</html>' | raw }}", "__string_template__ad87618e6b454c63ce105f296e18d9d0fedb7cfdd73a5311faceecb9eb358e19", "");
+    }
+}
